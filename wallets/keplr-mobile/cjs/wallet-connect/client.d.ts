@@ -16,7 +16,7 @@ export declare class KeplrClient extends WCClient {
     enable(chainIds: string | string[]): Promise<void>;
     getSimpleAccount(chainId: string): Promise<SimpleAccount>;
     getAccount(chainId: string): Promise<WalletAccount>;
-    getOfflineSigner(chainId: string, preferredSignType?: SignType): Promise<OfflineDirectSigner | import("@keplr-wallet/types").OfflineAminoSigner>;
+    getOfflineSigner(chainId: string, preferredSignType?: SignType): Promise<import("@keplr-wallet/types").OfflineAminoSigner | OfflineDirectSigner>;
     getOfflineSignerAmino(chainId: string): import("@keplr-wallet/types").OfflineAminoSigner;
     getOfflineSignerDirect(chainId: string): OfflineDirectSigner;
     signAmino(chainId: string, signer: string, signDoc: StdSignDoc, signOptions?: SignOptions): Promise<import("@keplr-wallet/types").AminoSignResponse>;
