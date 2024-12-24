@@ -3,7 +3,7 @@ import {
   ChainWalletContext,
   DisconnectOptions,
   WalletStatus,
-} from '@cosmos-kit/core';
+} from '@bongdungyeuem27-kit/core';
 
 export function getChainWalletContext(
   chainId: string,

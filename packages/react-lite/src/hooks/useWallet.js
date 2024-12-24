@@ -1,4 +1,4 @@
-import { State, WalletStatus, } from '@cosmos-kit/core';
+import { State, WalletStatus, } from '@bongdungyeuem27-kit/core';
 import { useContext } from 'react';
 import { walletContext } from '../provider';
 export const useWallet = (walletName, activeOnly = true) => {

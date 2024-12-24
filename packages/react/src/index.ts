@@ -17,4 +17,4 @@ export {
   useWallet,
   useWalletClient,
   walletContext,
-} from '@cosmos-kit/react-lite';
+} from '@bongdungyeuem27-kit/react-lite';

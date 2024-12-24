@@ -6,7 +6,7 @@ import {
     SignerOptions,
     WalletModalProps,
     WalletStatus,
-} from '@cosmos-kit/core';
+} from '@bongdungyeuem27-kit/core';
 
 export {
     WalletStatus,

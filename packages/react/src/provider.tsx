@@ -11,8 +11,8 @@ import {
   SignerOptions,
   WalletConnectOptions,
   WalletModalProps,
-} from '@cosmos-kit/core';
-import { ChainProvider as ChainProviderLite } from '@cosmos-kit/react-lite';
+} from '@bongdungyeuem27-kit/core';
+import { ChainProvider as ChainProviderLite } from '@bongdungyeuem27-kit/react-lite';
 import { ReactNode, useCallback, useMemo } from 'react';
 
 import { ThemeCustomizationProps, WalletModal } from './modal';

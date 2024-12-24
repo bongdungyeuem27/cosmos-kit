@@ -79,8 +79,8 @@
     "@types/react-dom": "^18.2"
   },
   "dependencies": {
-    "@bongdungyeuem27-kit/core": "workspace:*",
-    "@bongdungyeuem27-kit/react-lite": "workspace:*",
+    "@bongdungyeuem27-kit/core": "0.1.1-beta.3",
+    "@bongdungyeuem27-kit/react-lite": "0.1.1-beta.3",
     "@chain-registry/types": "^0.46.11",
     "@react-icons/all-files": "^4.0.0"
   },
@@ -95,5 +95,5 @@
     "react-dom": "^18"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "gitHead": "40e08d787dfb97992949d267adfcdd560a162783"
+  "gitHead": "e389906d5ab1c3c0ca7325ff8f0b438a27493731"
 }

@@ -23,8 +23,8 @@ import type {
   WalletClient,
   WalletClientActions,
   WalletConnectOptions,
-} from '@cosmos-kit/core';
-import { ExpiredError, RejectedError, State } from '@cosmos-kit/core';
+} from '@bongdungyeuem27-kit/core';
+import { ExpiredError, RejectedError, State } from '@bongdungyeuem27-kit/core';
 import SignClient from '@cosmoskitconnect/packages/sign-client';
 import {
   EngineTypes,

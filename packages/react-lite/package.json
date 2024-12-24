@@ -78,7 +78,7 @@
     "jest-environment-jsdom": "29.7.0"
   },
   "dependencies": {
-    "@bongdungyeuem27-kit/core": "workspace:*",
+    "@bongdungyeuem27-kit/core": "0.1.1-beta.3",
     "@chain-registry/types": "^0.46.11",
     "@dao-dao/cosmiframe": "^0.1.0"
   },
@@ -91,5 +91,5 @@
     "react": "^18",
     "react-dom": "^18"
   },
-  "gitHead": "40e08d787dfb97992949d267adfcdd560a162783"
+  "gitHead": "e389906d5ab1c3c0ca7325ff8f0b438a27493731"
 }

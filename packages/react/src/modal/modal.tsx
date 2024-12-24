@@ -6,7 +6,7 @@ import {
   WalletModalProps,
   WalletStatus,
   WalletViewProps,
-} from '@cosmos-kit/core';
+} from '@bongdungyeuem27-kit/core';
 import {
   ConnectModal,
   ThemeProvider,

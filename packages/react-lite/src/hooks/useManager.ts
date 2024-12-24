@@ -1,4 +1,4 @@
-import { ManagerContext } from '@cosmos-kit/core';
+import { ManagerContext } from '@bongdungyeuem27-kit/core';
 import { useContext } from 'react';
 
 import { walletContext } from '../provider';

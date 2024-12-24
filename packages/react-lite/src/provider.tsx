@@ -14,7 +14,7 @@ import {
   WalletManager,
   WalletModalProps,
   WalletRepo,
-} from '@cosmos-kit/core';
+} from '@bongdungyeuem27-kit/core';
 import { createContext, ReactNode, useEffect, useMemo, useState } from 'react';
 
 export const walletContext = createContext<{

@@ -1,4 +1,4 @@
-import { Wallet } from '@cosmos-kit/core';
+import { Wallet } from '@bongdungyeuem27-kit/core';
 import { Window as KeplrWindow } from '@keplr-wallet/types';
 
 import { ICON } from '../constant';

@@ -1,4 +1,4 @@
-import { ChainContext, ChainName, DisconnectOptions } from '@cosmos-kit/core';
+import { ChainContext, ChainName, DisconnectOptions } from '@bongdungyeuem27-kit/core';
 import { useContext, useEffect, useMemo, useState } from 'react';
 
 import { walletContext } from '../provider';

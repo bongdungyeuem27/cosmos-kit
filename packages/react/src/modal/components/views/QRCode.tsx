@@ -1,4 +1,4 @@
-import { ExpiredError, State, WalletViewProps } from '@cosmos-kit/core';
+import { ExpiredError, State, WalletViewProps } from '@bongdungyeuem27-kit/core';
 import {
   ConnectModalHead,
   ConnectModalQRCode,

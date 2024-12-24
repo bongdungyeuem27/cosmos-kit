@@ -1,7 +1,7 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 
-import { wallets as keplrExtension } from '@cosmos-kit/keplr-extension';
-import { wallets as keplrMobile } from '@cosmos-kit/keplr-mobile';
+import { wallets as keplrExtension } from '@bongdungyeuem27-kit/keplr-extension';
+import { wallets as keplrMobile } from '@bongdungyeuem27-kit/keplr-mobile';
 
 export type WalletName = 'keplr';
 

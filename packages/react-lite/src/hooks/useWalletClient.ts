@@ -1,4 +1,4 @@
-import { State, WalletClientContext, WalletName } from '@cosmos-kit/core';
+import { State, WalletClientContext, WalletName } from '@bongdungyeuem27-kit/core';
 import { useContext } from 'react';
 
 import { walletContext } from '../provider';

@@ -89,5 +89,5 @@
   "peerDependencies": {
     "@cosmoskitconnect": "git+https://github.com/bongdungyeuem27/cosmoskitconnect#main"
   },
-  "gitHead": "40e08d787dfb97992949d267adfcdd560a162783"
+  "gitHead": "e389906d5ab1c3c0ca7325ff8f0b438a27493731"
 }

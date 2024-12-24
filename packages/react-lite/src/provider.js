@@ -1,5 +1,5 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { Logger, State, WalletManager, } from '@cosmos-kit/core';
+import { Logger, State, WalletManager, } from '@bongdungyeuem27-kit/core';
 import { createContext, useEffect, useMemo, useState } from 'react';
 export const walletContext = createContext(null);
 export function ChainProvider({ chains, assetLists, wallets, walletModal: ProvidedWalletModal, throwErrors = false, subscribeConnectEvents = true, defaultNameService = 'icns', walletConnectOptions, signerOptions, endpointOptions, sessionOptions, logLevel = 'WARN', allowedIframeParentOrigins = [

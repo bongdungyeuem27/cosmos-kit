@@ -1,5 +1,5 @@
-import { EndpointOptions, Wallet } from '@cosmos-kit/core';
-import { MainWalletBase } from '@cosmos-kit/core';
+import { EndpointOptions, Wallet } from '@bongdungyeuem27-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { Keplr } from '@keplr-wallet/provider-extension';
 
 import { ChainKeplrExtension } from './chain-wallet';

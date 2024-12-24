@@ -13,8 +13,8 @@ export declare class KeplrClient implements WalletClient {
     getSimpleAccount(chainId: string): Promise<{
         namespace: string;
         chainId: string;
-        address: string;
-        username: string;
+        address: WalletAccount;
+        username: WalletAccount;
     }>;
     getAccount(chainId: string): Promise<WalletAccount>;
     getOfflineSigner(chainId: string, preferredSignType?: SignType): OfflineAminoSigner | OfflineDirectSigner;

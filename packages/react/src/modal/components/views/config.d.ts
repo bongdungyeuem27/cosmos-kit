@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { ModalViews, Wallet, WalletListViewProps, WalletViewProps } from '@cosmos-kit/core';
+import { ModalViews, Wallet, WalletListViewProps, WalletViewProps } from '@bongdungyeuem27-kit/core';
 export declare type ModalViewImpl = {
     head: React.ReactNode;
     content: React.ReactNode;

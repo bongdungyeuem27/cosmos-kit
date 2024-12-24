@@ -1,5 +1,5 @@
 import type { AssetList, Chain } from '@chain-registry/types';
-import { ChainName, EndpointOptions, LogLevel, MainWalletBase, NameServiceName, SessionOptions, SignerOptions, WalletConnectOptions, WalletManager, WalletModalProps } from '@bongdungyeuem27-kit/core';
+import { ChainName, EndpointOptions, LogLevel, MainWalletBase, NameServiceName, SessionOptions, SignerOptions, WalletConnectOptions, WalletModalProps } from '@bongdungyeuem27-kit/core';
 import { ReactNode } from 'react';
 export declare const walletContext: import("react").Context<{
     walletManager: WalletManager;

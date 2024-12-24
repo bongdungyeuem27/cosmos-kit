@@ -1,4 +1,4 @@
-import { OS, Wallet } from '@cosmos-kit/core';
+import { OS, Wallet } from '@bongdungyeuem27-kit/core';
 
 import { ICON } from '../constant';
 

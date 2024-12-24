@@ -3,7 +3,7 @@ import {
   Wallet,
   WalletListViewProps,
   WalletViewProps,
-} from '@cosmos-kit/core';
+} from '@bongdungyeuem27-kit/core';
 
 import { ConnectedView } from './Connected';
 import { ConnectingView } from './Connecting';

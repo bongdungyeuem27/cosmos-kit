@@ -1,4 +1,4 @@
-import { WalletViewProps } from '@cosmos-kit/core';
+import { WalletViewProps } from '@bongdungyeuem27-kit/core';
 import { ConnectModalHead, ConnectModalStatus } from '@interchain-ui/react';
 
 import { AstronautSvg } from '../Astronaut';

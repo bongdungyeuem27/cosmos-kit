@@ -1,4 +1,4 @@
-import { ModalOptions, WalletModalProps } from '@cosmos-kit/core';
+import { ModalOptions, WalletModalProps } from '@bongdungyeuem27-kit/core';
 import { ThemeProviderProps } from '@interchain-ui/react';
 import React from 'react';
 import { defaultModalViews } from './components/views';
