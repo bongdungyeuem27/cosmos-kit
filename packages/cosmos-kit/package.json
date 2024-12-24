@@ -1,6 +1,6 @@
 {
   "name": "cosmos-kit",
-  "version": "0.1.1-beta.3",
+  "version": "0.1.1-beta.4",
   "description": "cosmos-kit wallet connector",
   "author": "developers@cosmology.zone",
   "contributors": [
@@ -71,8 +71,8 @@
     "url": "https://github.com/cosmology-tech/cosmos-kit/issues"
   },
   "dependencies": {
-    "@bongdungyeuem27-kit/core": "0.1.1-beta.3",
-    "@bongdungyeuem27-kit/keplr": "0.1.1-beta.3"
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.4",
+    "@bongdungyeuem27-kit/keplr": "^0.1.1-beta.4"
   },
   "gitHead": "e389906d5ab1c3c0ca7325ff8f0b438a27493731"
 }

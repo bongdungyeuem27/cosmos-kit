@@ -1,6 +1,6 @@
 {
   "name": "@bongdungyeuem27-kit/react-lite",
-  "version": "0.1.1-beta.3",
+  "version": "0.1.1-beta.4",
   "description": "cosmos-kit wallet connector",
   "author": "developers@cosmology.zone",
   "contributors": [
@@ -78,7 +78,7 @@
     "jest-environment-jsdom": "29.7.0"
   },
   "dependencies": {
-    "@bongdungyeuem27-kit/core": "0.1.1-beta.3",
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.4",
     "@chain-registry/types": "^0.46.11",
     "@dao-dao/cosmiframe": "^0.1.0"
   },

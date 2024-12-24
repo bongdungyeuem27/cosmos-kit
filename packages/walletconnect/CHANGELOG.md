@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1-beta.4](https://github.com/cosmology-tech/cosmos-kit/compare/@bongdungyeuem27-kit/walletconnect@0.1.1-beta.3...@bongdungyeuem27-kit/walletconnect@0.1.1-beta.4) (2024-12-24)
+
+### Bug Fixes
+
+- change ([facaffa](https://github.com/cosmology-tech/cosmos-kit/commit/facaffa011e59bcf74bae04d918f918fb7e813f5))
+
 ## 0.1.1-beta.3 (2024-12-24)
 
 ### Bug Fixes

@@ -1,6 +1,6 @@
 {
   "name": "@bongdungyeuem27-kit/walletconnect",
-  "version": "0.1.1-beta.3",
+  "version": "0.1.1-beta.4",
   "description": "cosmos-kit wallet connector using walletconnect",
   "author": "developers@cosmology.zone",
   "contributors": [
@@ -73,7 +73,7 @@
     ]
   },
   "dependencies": {
-    "@bongdungyeuem27-kit/core": "0.1.1-beta.3",
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.4",
     "@cosmjs/proto-signing": "^0.32.3",
     "events": "3.3.0"
   },
