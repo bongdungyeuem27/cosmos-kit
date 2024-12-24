@@ -90,5 +90,6 @@
     "@types/react-dom": ">= 17",
     "react": "^18",
     "react-dom": "^18"
-  }
+  },
+  "gitHead": "d3dfc97ab6e97d73c57120b895779b3811622b16"
 }

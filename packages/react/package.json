@@ -94,5 +94,6 @@
     "react": "^18",
     "react-dom": "^18"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "gitHead": "d3dfc97ab6e97d73c57120b895779b3811622b16"
 }
