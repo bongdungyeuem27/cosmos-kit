@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1-beta.5](https://github.com/cosmology-tech/cosmos-kit/compare/@bongdungyeuem27-kit/keplr-extension@0.1.1-beta.4...@bongdungyeuem27-kit/keplr-extension@0.1.1-beta.5) (2024-12-24)
+
+### Bug Fixes
+
+- absolute path ([1598102](https://github.com/cosmology-tech/cosmos-kit/commit/1598102dd65ab0cf2d29e870d4d643d531adca51))
+
 ## [0.1.1-beta.4](https://github.com/cosmology-tech/cosmos-kit/compare/@bongdungyeuem27-kit/keplr-extension@0.1.1-beta.3...@bongdungyeuem27-kit/keplr-extension@0.1.1-beta.4) (2024-12-24)
 
 ### Bug Fixes
