@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "@cosmos-kit/core": "0.1.0",
-    "react-icons": "4.4.0"
+    "react-icons": "^4.0.0"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",
