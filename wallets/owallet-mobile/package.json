@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/owallet-mobile",
-  "version": "0.1.0",
+  "version": "0.1.1-beta.0",
   "description": "cosmos-kit wallet connector",
   "author": "defi@orai.io",
   "contributors": [
@@ -72,8 +72,8 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "1.68.2",
-    "@cosmos-kit/core": "0.1.0",
-    "@cosmos-kit/walletconnect": "0.1.0"
+    "@cosmos-kit/core": "^0.1.1-beta.0",
+    "@cosmos-kit/walletconnect": "^0.1.1-beta.0"
   },
   "gitHead": "2b5f2de5d9ed1580be4137736dfc6cce779679d1"
 }

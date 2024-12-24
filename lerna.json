@@ -1,7 +1,7 @@
 {
   "lerna": "7",
   "conventionalCommits": true,
-  "npmClient": "yarn",
+  "npmClient": "bun",
   "npmClientArgs": [
     "--no-lockfile"
   ],

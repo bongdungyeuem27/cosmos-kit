@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/galaxy-station",
-  "version": "0.1.0",
+  "version": "0.1.1-beta.0",
   "description": "@cosmos-kit/station is the Galaxy Station integration for CosmosKit",
   "author": "Hexxagon",
   "homepage": "https://github.com/cosmology-tech/cosmos-kit#readme",
@@ -48,6 +48,6 @@
     "url": "https://github.com/cosmology-tech/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/galaxy-station-extension": "0.1.0"
+    "@cosmos-kit/galaxy-station-extension": "^0.1.1-beta.0"
   }
 }
