@@ -74,7 +74,7 @@
   },
   "dependencies": {
     "@cosmjs/proto-signing": "^0.32.3",
-    "@cosmos-kit/core": "file:../core",
+    "@cosmos-kit/core": "git+https://github.com/bongdungyeuem27/cosmos-kit#main/packages/core",
     "events": "3.3.0"
   },
   "peerDependencies": {

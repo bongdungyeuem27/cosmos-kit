@@ -71,7 +71,7 @@
     "url": "https://github.com/cosmology-tech/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/core": "file:../core",
-    "@cosmos-kit/keplr": "file:../keplr"
+    "@cosmos-kit/core": "git+https://github.com/bongdungyeuem27/cosmos-kit#main/packages/core",
+    "@cosmos-kit/keplr": "git+https://github.com/bongdungyeuem27/cosmos-kit#main/packages/keplr"
   }
 }

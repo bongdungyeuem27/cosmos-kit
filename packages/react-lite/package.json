@@ -79,7 +79,7 @@
   },
   "dependencies": {
     "@chain-registry/types": "^0.46.11",
-    "@cosmos-kit/core": "file:../core",
+    "@cosmos-kit/core": "git+https://github.com/bongdungyeuem27/cosmos-kit#main/packages/core",
     "@dao-dao/cosmiframe": "^0.1.0"
   },
   "resolutions": {
