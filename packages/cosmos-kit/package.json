@@ -71,8 +71,8 @@
     "url": "https://github.com/cosmology-tech/cosmos-kit/issues"
   },
   "dependencies": {
-    "@bongdungyeuem27-kit/core": "^0.1.1-beta.4",
-    "@bongdungyeuem27-kit/keplr": "^0.1.1-beta.4"
+    "@bongdungyeuem27-kit/core": "workspace:*",
+    "@bongdungyeuem27-kit/keplr": "workspace:*"
   },
-  "gitHead": "e389906d5ab1c3c0ca7325ff8f0b438a27493731"
+  "gitHead": "20ab6e74851e985f4c12feda9e1ff9ab65f48bcf"
 }

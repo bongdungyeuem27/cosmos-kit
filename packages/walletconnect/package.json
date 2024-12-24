@@ -73,7 +73,7 @@
     ]
   },
   "dependencies": {
-    "@bongdungyeuem27-kit/core": "^0.1.1-beta.4",
+    "@bongdungyeuem27-kit/core": "workspace:*",
     "@cosmjs/proto-signing": "^0.32.3",
     "events": "3.3.0"
   },
@@ -81,5 +81,5 @@
     "@cosmjs/amino": ">=0.32.3",
     "@cosmoskitconnect": "git+https://github.com/bongdungyeuem27/cosmoskitconnect#main"
   },
-  "gitHead": "e389906d5ab1c3c0ca7325ff8f0b438a27493731"
+  "gitHead": "20ab6e74851e985f4c12feda9e1ff9ab65f48bcf"
 }
