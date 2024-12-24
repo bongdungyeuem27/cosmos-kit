@@ -1,0 +1,92 @@
+{
+  "name": "@cosmos-kit/core",
+  "version": "2.15.0",
+  "description": "cosmos-kit wallet connector core package",
+  "author": "developers@cosmology.zone",
+  "contributors": [
+    {
+      "name": "Jun Liu"
+    },
+    {
+      "name": "Dan Lynch"
+    },
+    {
+      "name": "Noah Saso"
+    },
+    {
+      "name": "Eliot Baker"
+    },
+    {
+      "name": "Delivan Jeonghyeok Yoo"
+    }
+  ],
+  "homepage": "https://github.com/cosmology-tech/cosmos-kit#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "types": "cjs/index.d.ts",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "cjs",
+    "esm",
+    "!CHANGELOG.md",
+    "!LICENSE"
+  ],
+  "scripts": {
+    "build:cjs": "bun tsc -p tsconfig.json --outDir cjs --module commonjs || true",
+    "build:esm": "bun tsc -p tsconfig.json --outDir esm --module es2022 || true",
+    "clean:cjs": "rimraf cjs",
+    "clean:esm": "rimraf esm",
+    "clean": "bun run clean:cjs && bun run clean:esm",
+    "build": "bun run clean && bun run build:cjs && bun run build:esm",
+    "prepare": "bun run build",
+    "lint": "eslint --ext .tsx,.ts .",
+    "format": "eslint --ext .tsx,.ts --fix .",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand",
+    "test:coverage": "jest --coverage"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cosmology-tech/cosmos-kit"
+  },
+  "keywords": [
+    "cosmos-kit",
+    "cosmos",
+    "keplr",
+    "leap",
+    "cosmostation",
+    "wallet"
+  ],
+  "bugs": {
+    "url": "https://github.com/cosmology-tech/cosmos-kit/issues"
+  },
+  "devDependencies": {
+    "chain-registry": "^1.64.13"
+  },
+  "dependencies": {
+    "@chain-registry/client": "^1.49.11",
+    "@chain-registry/keplr": "^1.69.13",
+    "@chain-registry/types": "^0.46.11",
+    "@cosmjs/amino": "^0.32.3",
+    "@cosmjs/cosmwasm-stargate": "^0.32.3",
+    "@cosmjs/proto-signing": "^0.32.3",
+    "@cosmjs/stargate": "^0.32.3",
+    "@dao-dao/cosmiframe": "^0.1.0",
+    "bowser": "2.11.0",
+    "cosmjs-types": "^0.9.0",
+    "events": "3.3.0",
+    "nock": "13.5.4",
+    "uuid": "^9.0.1"
+  },
+  "peerDependencies": {
+    "@cosmoskitconnect": "git+https://github.com/bongdungyeuem27/cosmoskitconnect#main"
+  }
+}
