@@ -1,1 +1,4 @@
-export declare const wallets: (import("@cosmos-kit/owallet-extension").OwalletExtensionWallet | import("@cosmos-kit/owallet-mobile").OWalletMobileWallet)[];
+export declare const wallets: (
+  | import('@bongdungyeuem27-kit/owallet-extension').OwalletExtensionWallet
+  | import('@bongdungyeuem27-kit/owallet-mobile').OWalletMobileWallet
+)[];

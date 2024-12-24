@@ -1,5 +1,5 @@
 {
-  "name": "@cosmos-kit/cosmos-extension-metamask",
+  "name": "@bongdungyeuem27-kit/cosmos-extension-metamask",
   "version": "0.1.1-beta.2",
   "description": "cosmos-kit wallet connector for the official Cosmos Extension for Metamask",
   "author": "joe@mysticlabs.xyz",
@@ -61,7 +61,7 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "^0.1.1-beta.2",
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.2",
     "@cosmsnap/snapper": "^0.2.5",
     "cosmjs-types": ">=0.9.0"
   },
@@ -69,5 +69,5 @@
     "@cosmjs/amino": ">=0.32.3",
     "@cosmjs/proto-signing": ">=0.32.3"
   },
-  "gitHead": "d3dfc97ab6e97d73c57120b895779b3811622b16"
+  "gitHead": "40e08d787dfb97992949d267adfcdd560a162783"
 }

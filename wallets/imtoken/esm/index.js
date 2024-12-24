@@ -1,2 +1,2 @@
-import { wallets as ext } from '@cosmos-kit/imtoken-extension';
+import { wallets as ext } from '@bongdungyeuem27-kit/imtoken-extension';
 export const wallets = [...ext];

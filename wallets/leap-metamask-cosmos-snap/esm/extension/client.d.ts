@@ -1,7 +1,7 @@
 import { AminoSignResponse, OfflineAminoSigner, StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { Algo, DirectSignResponse } from '@cosmjs/proto-signing';
-import { ChainRecord, DirectSignDoc, SignType } from '@cosmos-kit/core';
-import { SignOptions, WalletClient } from '@cosmos-kit/core';
+import { ChainRecord, DirectSignDoc, SignType } from '@bongdungyeuem27-kit/core';
+import { SignOptions, WalletClient } from '@bongdungyeuem27-kit/core';
 import { SignDoc } from 'cosmjs-types/cosmos/tx/v1beta1/tx';
 export declare class CosmosSnapClient implements WalletClient {
     readonly snapInstalled: boolean;

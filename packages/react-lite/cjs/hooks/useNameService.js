@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useNameService = void 0;
-const core_1 = require("@cosmos-kit/core");
+const core_1 = require("@bongdungyeuem27-kit/core");
 const react_1 = require("react");
 const useManager_1 = require("./useManager");
 const useNameService = (name) => {

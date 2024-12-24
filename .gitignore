@@ -3,20 +3,20 @@
 *.log
 **/node_modules
 coverage
-# packages/**/build
-# packages/**/main
-# packages/**/module
-# packages/**/dist
-# packages/**/cjs
-# packages/**/esm
-# wallets/**/build
-# wallets/**/main
-# wallets/**/module
-# wallets/**/dist
-# wallets/**/cjs
-# wallets/**/esm
-packages/**/src
-wallets/**/src
+packages/**/build
+packages/**/main
+packages/**/module
+packages/**/dist
+packages/**/cjs
+packages/**/esm
+wallets/**/build
+wallets/**/main
+wallets/**/module
+wallets/**/dist
+wallets/**/cjs
+wallets/**/esm
+# packages/**/src
+# wallets/**/src
 packages/example/pages/tmp.tsx
 packages/example/utils/tmp.ts
 .idea

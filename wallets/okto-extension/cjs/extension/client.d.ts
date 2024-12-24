@@ -1,7 +1,7 @@
 import { StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { Algo, OfflineDirectSigner } from '@cosmjs/proto-signing';
-import { BroadcastMode, ChainRecord, SignType, SuggestToken } from '@cosmos-kit/core';
-import { DirectSignDoc, SignOptions, WalletClient } from '@cosmos-kit/core';
+import { BroadcastMode, ChainRecord, SignType, SuggestToken } from '@bongdungyeuem27-kit/core';
+import { DirectSignDoc, SignOptions, WalletClient } from '@bongdungyeuem27-kit/core';
 import { Okto } from './types';
 export declare class OktoClient implements WalletClient {
     readonly client: Okto;

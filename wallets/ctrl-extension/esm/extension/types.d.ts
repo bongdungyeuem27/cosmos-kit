@@ -2,7 +2,7 @@
 import { AminoSignResponse, OfflineAminoSigner, StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { OfflineDirectSigner, OfflineSigner } from '@cosmjs/proto-signing';
 import { DirectSignResponse } from '@cosmjs/proto-signing';
-import { BroadcastMode, Key } from '@cosmos-kit/core';
+import { BroadcastMode, Key } from '@bongdungyeuem27-kit/core';
 export interface CTRLSignOptions {
     readonly preferNoSetFee?: boolean;
     readonly preferNoSetMemo?: boolean;

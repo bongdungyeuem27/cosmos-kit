@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { ChainFrontierExtension } from './chain-wallet';
 import { FrontierClient } from './client';
 import { getFrontierFromExtension } from './utils';

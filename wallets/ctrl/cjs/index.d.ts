@@ -1,1 +1,1 @@
-export declare const wallets: import("@cosmos-kit/ctrl-extension").CTRLExtensionWallet[];
+export declare const wallets: import("@bongdungyeuem27-kit/ctrl-extension").CTRLExtensionWallet[];

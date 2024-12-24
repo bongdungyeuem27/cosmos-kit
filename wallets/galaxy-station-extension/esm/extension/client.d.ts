@@ -1,5 +1,5 @@
 import { AminoSignResponse, StdSignature, StdSignDoc } from '@cosmjs/amino';
-import { SignOptions, WalletAccount, WalletClient } from '@cosmos-kit/core';
+import { SignOptions, WalletAccount, WalletClient } from '@bongdungyeuem27-kit/core';
 import Station from '@hexxagon/station-connector';
 export declare class GalaxyStationClient implements WalletClient {
     readonly client: Station;

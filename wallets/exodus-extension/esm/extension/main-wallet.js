@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { ChainExodusExtension } from './chain-wallet';
 import { ExodusClient } from './client';
 import { getExodusFromExtension } from './utils';

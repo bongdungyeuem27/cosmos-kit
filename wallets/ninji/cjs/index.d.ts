@@ -1,1 +1,1 @@
-export declare const wallets: import("@cosmos-kit/ninji-extension").NinjiExtensionWallet[];
+export declare const wallets: import("@bongdungyeuem27-kit/ninji-extension").NinjiExtensionWallet[];

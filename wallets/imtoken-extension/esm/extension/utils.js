@@ -1,4 +1,4 @@
-import { ClientNotExistError } from '@cosmos-kit/core';
+import { ClientNotExistError } from '@bongdungyeuem27-kit/core';
 export const getIMTokenFromExtension = async () => {
     if (typeof window === 'undefined') {
         return undefined;

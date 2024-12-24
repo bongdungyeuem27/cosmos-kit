@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { ChainCdcwalletExtension } from './chain-wallet';
 import { CdcwalletClient } from './client';
 import { getCdcwalletFromExtension } from './utils';

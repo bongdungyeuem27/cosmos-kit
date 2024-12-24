@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { ChainStationExtension } from './chain-wallet';
 import { GalaxyStationClient } from './client';
 import { getGalaxyStationFromExtension } from './utils';

@@ -1,2 +1,2 @@
-import { wallets as ext } from '@cosmos-kit/compass-extension';
+import { wallets as ext } from '@bongdungyeuem27-kit/compass-extension';
 export const wallets = [...ext];

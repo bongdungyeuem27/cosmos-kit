@@ -1,5 +1,5 @@
 import { Algo, StdSignature, StdSignDoc } from '@cosmjs/amino';
-import { BroadcastMode, ChainRecord, DirectSignDoc, SignOptions, SignType, WalletClient } from '@cosmos-kit/core';
+import { BroadcastMode, ChainRecord, DirectSignDoc, SignOptions, SignType, WalletClient } from '@bongdungyeuem27-kit/core';
 import type { Vectis } from './types';
 export declare class VectisClient implements WalletClient {
     readonly client: Vectis;

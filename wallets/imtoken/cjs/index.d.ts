@@ -1,1 +1,1 @@
-export declare const wallets: import("@cosmos-kit/imtoken-extension").IMTokenWallet[];
+export declare const wallets: import("@bongdungyeuem27-kit/imtoken-extension").IMTokenWallet[];

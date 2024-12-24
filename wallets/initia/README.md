@@ -1,4 +1,4 @@
-# @cosmos-kit/initia
+# @bongdungyeuem27-kit/initia
 
 <p align="center" width="100%">
     <img height="90" src="https://user-images.githubusercontent.com/545047/190171432-5526db8f-9952-45ce-a745-bea4302f912b.svg" />
@@ -12,7 +12,7 @@
 
 Cosmos Kit is a universal wallet adapter for developers to build apps that quickly and easily interact with Cosmos blockchains and wallets.
 
-@cosmos-kit/initia is the Initia integration for CosmosKit.
+@bongdungyeuem27-kit/initia is the Initia integration for CosmosKit.
 
 ## Related
 

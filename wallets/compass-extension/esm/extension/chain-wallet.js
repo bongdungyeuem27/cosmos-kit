@@ -1,6 +1,6 @@
-import { ChainWalletBase } from '@cosmos-kit/core';
+import { ChainWalletBase } from '@bongdungyeuem27-kit/core';
 export class ChainCompassExtension extends ChainWalletBase {
-    constructor(walletInfo, chainInfo) {
-        super(walletInfo, chainInfo);
-    }
+  constructor(walletInfo, chainInfo) {
+    super(walletInfo, chainInfo);
+  }
 }

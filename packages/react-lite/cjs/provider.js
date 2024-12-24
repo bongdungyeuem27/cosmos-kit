@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ChainProvider = exports.walletContext = void 0;
 const jsx_runtime_1 = require("react/jsx-runtime");
-const core_1 = require("@cosmos-kit/core");
+const core_1 = require("@bongdungyeuem27-kit/core");
 const react_1 = require("react");
 exports.walletContext = (0, react_1.createContext)(null);
 function ChainProvider({ chains, assetLists, wallets, walletModal: ProvidedWalletModal, throwErrors = false, subscribeConnectEvents = true, defaultNameService = 'icns', walletConnectOptions, signerOptions, endpointOptions, sessionOptions, logLevel = 'WARN', allowedIframeParentOrigins = [

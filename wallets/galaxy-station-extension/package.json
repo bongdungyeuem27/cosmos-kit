@@ -1,7 +1,7 @@
 {
-  "name": "@cosmos-kit/galaxy-station-extension",
+  "name": "@bongdungyeuem27-kit/galaxy-station-extension",
   "version": "0.1.1-beta.2",
-  "description": "@cosmos-kit/galaxy-station-extension is the Galaxy Station integration for CosmosKit",
+  "description": "@bongdungyeuem27-kit/galaxy-station-extension is the Galaxy Station integration for CosmosKit",
   "author": "Hexxagon",
   "homepage": "https://github.com/cosmology-tech/cosmos-kit#readme",
   "license": "SEE LICENSE IN LICENSE",
@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "@chain-registry/types": "0.46.11",
-    "@cosmos-kit/core": "^0.1.1-beta.2",
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.2",
     "@hexxagon/feather.js": "^1.0.9-beta.8",
     "@hexxagon/station-connector": "^1.0.17"
   },
@@ -64,5 +64,5 @@
     "@cosmjs/amino": ">=0.32.3",
     "@cosmjs/proto-signing": ">=0.32.3"
   },
-  "gitHead": "d3dfc97ab6e97d73c57120b895779b3811622b16"
+  "gitHead": "40e08d787dfb97992949d267adfcdd560a162783"
 }

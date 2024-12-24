@@ -1,6 +1,6 @@
 import { AminoSignResponse, StdSignDoc } from '@cosmjs/amino';
 import { AccountData, DirectSignResponse } from '@cosmjs/proto-signing';
-import { Wallet } from '@cosmos-kit/core';
+import { Wallet } from '@bongdungyeuem27-kit/core';
 import { Ecies } from '@toruslabs/eccrypto';
 import { Web3AuthNoModalOptions } from '@web3auth/base';
 import { LOGIN_PROVIDER_TYPE, OPENLOGIN_NETWORK_TYPE } from '@web3auth/openlogin-adapter';

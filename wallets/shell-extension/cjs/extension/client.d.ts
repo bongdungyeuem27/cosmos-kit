@@ -1,6 +1,6 @@
 import { StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { Algo, OfflineDirectSigner } from '@cosmjs/proto-signing';
-import { ChainRecord, DirectSignDoc, SignOptions, SignType, SuggestToken, WalletClient } from '@cosmos-kit/core';
+import { ChainRecord, DirectSignDoc, SignOptions, SignType, SuggestToken, WalletClient } from '@bongdungyeuem27-kit/core';
 import { BroadcastMode } from '@keplr-wallet/types';
 import { Shell } from './types';
 export declare class ShellClient implements WalletClient {

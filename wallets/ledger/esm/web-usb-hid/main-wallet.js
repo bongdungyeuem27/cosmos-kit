@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { LedgerChianWallet } from './chain-wallet';
 import { LedgerClient } from './client';
 export class LedgerMainWallet extends MainWalletBase {

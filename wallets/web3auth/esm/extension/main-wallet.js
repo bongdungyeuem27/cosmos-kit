@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { getHashQueryParams } from '@toruslabs/openlogin';
 import { OPENLOGIN_NETWORK } from '@web3auth/openlogin-adapter';
 import { Web3AuthChainWallet } from './chain-wallet';

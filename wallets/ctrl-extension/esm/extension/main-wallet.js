@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { ChainCTRLExtension } from './chain-wallet';
 import { CTRLClient } from './client';
 import { getCTRLFromExtension } from './utils';

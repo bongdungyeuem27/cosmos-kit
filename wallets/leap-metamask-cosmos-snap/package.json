@@ -1,5 +1,5 @@
 {
-  "name": "@cosmos-kit/leap-metamask-cosmos-snap",
+  "name": "@bongdungyeuem27-kit/leap-metamask-cosmos-snap",
   "version": "0.1.1-beta.2",
   "description": "cosmos-kit wallet connector",
   "author": "mayank.yadav@leapwallet.io",
@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "^0.1.1-beta.2",
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.2",
     "@leapwallet/cosmos-snap-provider": "0.1.26",
     "@metamask/providers": "^11.1.1"
   },
@@ -69,5 +69,5 @@
     "@cosmjs/proto-signing": ">=0.32.3",
     "cosmjs-types": ">=0.9.0"
   },
-  "gitHead": "d3dfc97ab6e97d73c57120b895779b3811622b16"
+  "gitHead": "40e08d787dfb97992949d267adfcdd560a162783"
 }

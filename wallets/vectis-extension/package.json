@@ -1,5 +1,5 @@
 {
-  "name": "@cosmos-kit/vectis-extension",
+  "name": "@bongdungyeuem27-kit/vectis-extension",
   "version": "0.1.1-beta.2",
   "description": "cosmos-kit wallet connector",
   "author": "jonlitech@gmail.com",
@@ -60,11 +60,11 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "^0.1.1-beta.2"
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.2"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",
     "@cosmjs/proto-signing": ">=0.32.3"
   },
-  "gitHead": "d3dfc97ab6e97d73c57120b895779b3811622b16"
+  "gitHead": "40e08d787dfb97992949d267adfcdd560a162783"
 }

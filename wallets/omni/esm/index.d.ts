@@ -1,1 +1,1 @@
-export declare const wallets: import("@cosmos-kit/omni-mobile").OmniMobileWallet[];
+export declare const wallets: import('@bongdungyeuem27-kit/omni-mobile').OmniMobileWallet[];

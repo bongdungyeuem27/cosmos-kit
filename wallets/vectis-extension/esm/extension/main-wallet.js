@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { ChainVectisExtension } from './chain-wallet';
 import { VectisClient } from './client';
 import { getVectisFromExtension } from './utils';

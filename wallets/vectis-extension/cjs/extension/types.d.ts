@@ -1,6 +1,6 @@
 import { AccountData, Algo, AminoSignResponse, OfflineAminoSigner, StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { DirectSignResponse, OfflineDirectSigner, OfflineSigner } from '@cosmjs/proto-signing';
-import { BroadcastMode, DirectSignDoc } from '@cosmos-kit/core';
+import { BroadcastMode, DirectSignDoc } from '@bongdungyeuem27-kit/core';
 import type { ChainInfo } from '@keplr-wallet/types';
 export type { ChainInfo };
 export interface VectisWindow extends Window {

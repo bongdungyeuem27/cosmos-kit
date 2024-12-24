@@ -1,5 +1,5 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-import { ModalView, State, WalletStatus, } from '@cosmos-kit/core';
+import { ModalView, State, WalletStatus, } from '@bongdungyeuem27-kit/core';
 import { ConnectModal, ThemeProvider, } from '@interchain-ui/react';
 import { useCallback, useEffect, useMemo, useRef, useState, } from 'react';
 import { defaultModalViews, } from './components/views';

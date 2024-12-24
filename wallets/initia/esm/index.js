@@ -1,2 +1,2 @@
-import { wallets as ext } from '@cosmos-kit/initia-extension';
+import { wallets as ext } from '@bongdungyeuem27-kit/initia-extension';
 export const wallets = [...ext];

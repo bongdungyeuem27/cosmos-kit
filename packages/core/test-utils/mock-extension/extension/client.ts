@@ -8,7 +8,7 @@ import {
   SignOptions,
   SignType,
   SuggestToken,
-} from '@cosmos-kit/core';
+} from '@bongdungyeuem27-kit/core';
 import Long from 'long';
 
 import { DirectSignDoc, WalletClient } from '../../../src/types';

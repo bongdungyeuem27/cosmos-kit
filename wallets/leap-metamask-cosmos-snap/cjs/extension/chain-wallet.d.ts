@@ -1,4 +1,4 @@
-import { ChainRecord, ChainWalletBase, Wallet } from '@cosmos-kit/core';
+import { ChainRecord, ChainWalletBase, Wallet } from '@bongdungyeuem27-kit/core';
 export declare class ChainMetamaskCosmosSnap extends ChainWalletBase {
     constructor(walletInfo: Wallet, chainInfo: ChainRecord);
 }

@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.QRCodeView = void 0;
 const jsx_runtime_1 = require("react/jsx-runtime");
-const core_1 = require("@cosmos-kit/core");
+const core_1 = require("@bongdungyeuem27-kit/core");
 const react_1 = require("@interchain-ui/react");
 function QRCodeView({ onClose, onReturn, wallet, }) {
     const { walletInfo: { prettyName }, } = wallet;

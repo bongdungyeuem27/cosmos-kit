@@ -1,7 +1,7 @@
 import { AminoSignResponse, OfflineAminoSigner, StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { DirectSignResponse } from '@cosmjs/proto-signing';
 import { OfflineDirectSigner } from '@cosmjs/proto-signing';
-import { BroadcastMode } from '@cosmos-kit/core';
+import { BroadcastMode } from '@bongdungyeuem27-kit/core';
 import type { ChainInfo, EthSignType } from '@keplr-wallet/types';
 import Long from 'long';
 import { SecretUtils } from 'secretjs/types/enigmautils';

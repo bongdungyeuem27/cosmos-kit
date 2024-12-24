@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ChainProvider = void 0;
 const jsx_runtime_1 = require("react/jsx-runtime");
-const core_1 = require("@cosmos-kit/core");
-const react_lite_1 = require("@cosmos-kit/react-lite");
+const core_1 = require("@bongdungyeuem27-kit/core");
+const react_lite_1 = require("@bongdungyeuem27-kit/react-lite");
 const react_1 = require("react");
 const modal_1 = require("./modal");
 const views_1 = require("./modal/components/views");

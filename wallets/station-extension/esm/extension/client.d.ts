@@ -1,5 +1,5 @@
 import { AminoSignResponse, StdSignDoc, StdSignature } from '@cosmjs/amino';
-import { SignOptions, WalletAccount, WalletClient } from '@cosmos-kit/core';
+import { SignOptions, WalletAccount, WalletClient } from '@bongdungyeuem27-kit/core';
 import Station from '@terra-money/station-connector';
 export declare class StationClient implements WalletClient {
     readonly client: Station;

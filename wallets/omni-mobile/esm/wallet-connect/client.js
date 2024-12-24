@@ -1,4 +1,4 @@
-import { WCClient } from '@cosmos-kit/walletconnect';
+import { WCClient } from '@bongdungyeuem27-kit/walletconnect';
 export class OmniClient extends WCClient {
     constructor(walletInfo) {
         super(walletInfo);

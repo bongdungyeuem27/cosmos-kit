@@ -1,7 +1,7 @@
 /// <reference types="long" />
 import { AminoSignResponse, OfflineAminoSigner, StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { OfflineDirectSigner, OfflineSigner, DirectSignResponse } from '@cosmjs/proto-signing';
-import { BroadcastMode } from '@cosmos-kit/core';
+import { BroadcastMode } from '@bongdungyeuem27-kit/core';
 import type { ChainInfo } from '@keplr-wallet/types';
 export interface Key {
     readonly name: string;

@@ -1,6 +1,6 @@
  
 import { StdSignature, StdSignDoc } from '@cosmjs/amino';
-import { DirectSignDoc, SignOptions, SignType, WalletClient } from '@cosmos-kit/core';
+import { DirectSignDoc, SignOptions, SignType, WalletClient } from '@bongdungyeuem27-kit/core';
 import { CapsuleProvider } from '@leapwallet/cosmos-social-login-capsule-provider';
 export declare class CosmosCapsuleClient implements WalletClient {
     readonly loginProvider: CapsuleProvider;

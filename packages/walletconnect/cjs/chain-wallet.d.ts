@@ -1,4 +1,4 @@
-import { type ChainRecord, type Mutable, type Wallet, type WalletConnectOptions, ChainWalletBase } from '@cosmos-kit/core';
+import { type ChainRecord, type Mutable, type Wallet, type WalletConnectOptions, ChainWalletBase } from '@bongdungyeuem27-kit/core';
 import { WCClient } from './client';
 import { IWCClient } from './types';
 export declare class ChainWC extends ChainWalletBase {

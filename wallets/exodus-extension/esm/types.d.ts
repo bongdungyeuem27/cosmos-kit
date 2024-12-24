@@ -1,6 +1,6 @@
 import type { AminoSignResponse, StdSignDoc } from '@cosmjs/amino';
 import type { AccountData, DirectSignResponse } from '@cosmjs/proto-signing';
-import type { BroadcastMode, DirectSignDoc } from '@cosmos-kit/core';
+import type { BroadcastMode, DirectSignDoc } from '@bongdungyeuem27-kit/core';
 declare type Chain = string;
 interface ConnectionOptions {
     chainId: Chain;

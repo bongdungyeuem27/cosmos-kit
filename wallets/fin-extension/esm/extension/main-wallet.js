@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { FinClient } from './client';
 import { getFinFromExtension } from './utils';
 import { ChainFinExtension } from './chain-wallet';

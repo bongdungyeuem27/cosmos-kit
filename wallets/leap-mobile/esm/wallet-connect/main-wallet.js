@@ -1,4 +1,4 @@
-import { WCWallet } from '@cosmos-kit/walletconnect';
+import { WCWallet } from '@bongdungyeuem27-kit/walletconnect';
 import { ChainLeapMobile } from './chain-wallet';
 import { LeapClient } from './client';
 export class LeapMobileWallet extends WCWallet {

@@ -1,5 +1,5 @@
-import { EndpointOptions, Wallet } from '@cosmos-kit/core';
-import { MainWalletBase } from '@cosmos-kit/core';
+import { EndpointOptions, Wallet } from '@bongdungyeuem27-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { TransportType } from './utils';
 export declare class LedgerMainWallet extends MainWalletBase {
     transportType: TransportType;

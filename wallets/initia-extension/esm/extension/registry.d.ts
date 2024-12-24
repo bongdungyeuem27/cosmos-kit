@@ -1,2 +1,2 @@
-import { Wallet } from '@cosmos-kit/core';
+import { Wallet } from '@bongdungyeuem27-kit/core';
 export declare const initiaExtensionInfo: Wallet;

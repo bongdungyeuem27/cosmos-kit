@@ -1,4 +1,4 @@
-import { DirectSignDoc, SignOptions, WalletAccount, WalletClient } from '@cosmos-kit/core';
+import { DirectSignDoc, SignOptions, WalletAccount, WalletClient } from '@bongdungyeuem27-kit/core';
 import { InitiaWallet } from './type';
 export declare class InitiaClient implements WalletClient {
     readonly client: InitiaWallet;

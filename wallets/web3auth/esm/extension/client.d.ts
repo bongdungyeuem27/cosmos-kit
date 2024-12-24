@@ -1,7 +1,7 @@
 import { Chain } from '@chain-registry/types';
 import { OfflineAminoSigner, StdSignature } from '@cosmjs/amino';
 import { OfflineDirectSigner } from '@cosmjs/proto-signing';
-import { DappEnv, WalletClient } from '@cosmos-kit/core';
+import { DappEnv, WalletClient } from '@bongdungyeuem27-kit/core';
 import { Web3AuthSigner } from './signer';
 import { Web3AuthClientOptions } from './types';
 export declare class Web3AuthClient implements WalletClient {

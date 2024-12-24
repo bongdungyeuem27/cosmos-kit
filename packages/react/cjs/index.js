@@ -20,7 +20,7 @@ __exportStar(require("./modal"), exports);
 var config_1 = require("./modal/components/views/config");
 Object.defineProperty(exports, "defaultModalViews", { enumerable: true, get: function () { return config_1.defaultModalViews; } });
 __exportStar(require("./provider"), exports);
-var react_lite_1 = require("@cosmos-kit/react-lite");
+var react_lite_1 = require("@bongdungyeuem27-kit/react-lite");
 Object.defineProperty(exports, "useChain", { enumerable: true, get: function () { return react_lite_1.useChain; } });
 Object.defineProperty(exports, "useChains", { enumerable: true, get: function () { return react_lite_1.useChains; } });
 Object.defineProperty(exports, "useChainWallet", { enumerable: true, get: function () { return react_lite_1.useChainWallet; } });

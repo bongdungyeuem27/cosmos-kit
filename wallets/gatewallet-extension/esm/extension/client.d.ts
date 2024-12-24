@@ -1,6 +1,6 @@
 import { StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { Algo } from '@cosmjs/proto-signing';
-import { DirectSignDoc, SignOptions, WalletClient } from '@cosmos-kit/core';
+import { DirectSignDoc, SignOptions, WalletClient } from '@bongdungyeuem27-kit/core';
 import { Gatewallet } from './types';
 export declare class GatewalletClient implements WalletClient {
     readonly client: Gatewallet;

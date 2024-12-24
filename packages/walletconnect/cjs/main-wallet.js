@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.WCWallet = void 0;
-const core_1 = require("@cosmos-kit/core");
+const core_1 = require("@bongdungyeuem27-kit/core");
 class WCWallet extends core_1.MainWalletBase {
     WCClient;
     clientMutable = { state: core_1.State.Init };

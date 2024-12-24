@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { ChainShellExtension } from './chain-wallet';
 import { ShellClient } from './client';
 import { getShellFromExtension } from './utils';

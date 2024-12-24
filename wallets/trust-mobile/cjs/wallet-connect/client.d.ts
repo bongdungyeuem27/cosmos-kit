@@ -1,5 +1,5 @@
-import { DirectSignDoc, SignOptions, Wallet } from '@cosmos-kit/core';
-import { WCClient } from '@cosmos-kit/walletconnect';
+import { DirectSignDoc, SignOptions, Wallet } from '@bongdungyeuem27-kit/core';
+import { WCClient } from '@bongdungyeuem27-kit/walletconnect';
 import { AminoSignResponse, StdSignDoc } from '@cosmjs/amino';
 import { DirectSignResponse } from '@cosmjs/proto-signing';
 export declare class TrustClient extends WCClient {

@@ -1,6 +1,6 @@
-import { Wallet } from '@cosmos-kit/core';
-import { MainWalletBase } from '@cosmos-kit/core';
+import { Wallet } from '@bongdungyeuem27-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 export declare class NinjiExtensionWallet extends MainWalletBase {
-    constructor(walletInfo: Wallet);
-    initClient(): Promise<void>;
+  constructor(walletInfo: Wallet);
+  initClient(): Promise<void>;
 }

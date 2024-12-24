@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { ChainCosmosExtensionMetamaskSnap } from './chain-wallet';
 import { CosmosExtensionClient } from './client';
 export class CosmosMetamaskExtensionWallet extends MainWalletBase {

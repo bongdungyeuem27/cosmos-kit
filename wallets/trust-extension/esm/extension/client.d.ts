@@ -1,5 +1,5 @@
 import { Algo } from '@cosmjs/proto-signing';
-import { SignType, WalletClient } from '@cosmos-kit/core';
+import { SignType, WalletClient } from '@bongdungyeuem27-kit/core';
 import { Trust } from './types';
 export declare class TrustClient implements WalletClient {
     readonly client: Trust;

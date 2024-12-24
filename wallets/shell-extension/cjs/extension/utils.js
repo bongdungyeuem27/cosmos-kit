@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getShellFromExtension = void 0;
-const core_1 = require("@cosmos-kit/core");
+const core_1 = require("@bongdungyeuem27-kit/core");
 const getShellFromExtension = async () => {
     if (typeof window === 'undefined') {
         return void 0;

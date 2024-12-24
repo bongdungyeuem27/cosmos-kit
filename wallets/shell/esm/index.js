@@ -1,2 +1,2 @@
-import { wallets as ext } from '@cosmos-kit/shell-extension';
+import { wallets as ext } from '@bongdungyeuem27-kit/shell-extension';
 export const wallets = [...ext];

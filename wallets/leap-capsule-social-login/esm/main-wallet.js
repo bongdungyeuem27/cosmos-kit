@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { CapsuleProvider, } from '@leapwallet/cosmos-social-login-capsule-provider';
 import { ChainCosmosSocial } from './chain-wallet';
 import { CosmosCapsuleClient } from './client';

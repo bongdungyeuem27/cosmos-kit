@@ -1,2 +1,2 @@
-import { wallets as mobile } from '@cosmos-kit/omni-mobile';
+import { wallets as mobile } from '@bongdungyeuem27-kit/omni-mobile';
 export const wallets = [...mobile];

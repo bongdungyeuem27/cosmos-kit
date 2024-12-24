@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { ChainLeapExtension } from './chain-wallet';
 import { LeapClient } from './client';
 import { getLeapFromExtension } from './utils';

@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import { MainWalletBase } from '@bongdungyeuem27-kit/core';
 import { ChainTrustExtension } from './chain-wallet';
 import { TrustClient } from './client';
 import { getTrustFromExtension } from './utils';

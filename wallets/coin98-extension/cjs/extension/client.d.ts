@@ -1,6 +1,6 @@
 import { StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { Algo } from '@cosmjs/proto-signing';
-import { BroadcastMode, ChainRecord, DirectSignDoc, SignOptions, SignType, WalletClient } from '@cosmos-kit/core';
+import { BroadcastMode, ChainRecord, DirectSignDoc, SignOptions, SignType, WalletClient } from '@bongdungyeuem27-kit/core';
 import { Coin98 } from './types';
 import { SignDoc } from 'cosmjs-types/cosmos/tx/v1beta1/tx';
 export declare class Coin98Client implements WalletClient {

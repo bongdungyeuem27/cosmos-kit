@@ -1,4 +1,4 @@
-import { ChainWC } from '@cosmos-kit/walletconnect';
+import { ChainWC } from '@bongdungyeuem27-kit/walletconnect';
 import { TrustClient } from './client';
 export class ChainTrustMobile extends ChainWC {
     constructor(walletInfo, chainInfo) {

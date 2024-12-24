@@ -1,1 +1,1 @@
-export declare const wallets: import("@cosmos-kit/station-extension").StationExtensionWallet[];
+export declare const wallets: import("@bongdungyeuem27-kit/station-extension").StationExtensionWallet[];

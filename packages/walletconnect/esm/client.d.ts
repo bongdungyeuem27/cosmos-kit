@@ -2,8 +2,8 @@
 /// <reference types="node" />
 import type { AminoSignResponse, OfflineAminoSigner, StdSignDoc } from '@cosmjs/amino';
 import type { DirectSignResponse, OfflineDirectSigner } from '@cosmjs/proto-signing';
-import type { AppUrl, DappEnv, DirectSignDoc, DisconnectOptions, Logger, Mutable, SignOptions, SignType, SimpleAccount, Wallet, WalletAccount, WalletClient, WalletClientActions, WalletConnectOptions } from '@cosmos-kit/core';
-import { State } from '@cosmos-kit/core';
+import type { AppUrl, DappEnv, DirectSignDoc, DisconnectOptions, Logger, Mutable, SignOptions, SignType, SimpleAccount, Wallet, WalletAccount, WalletClient, WalletClientActions, WalletConnectOptions } from '@bongdungyeuem27-kit/core';
+import { State } from '@bongdungyeuem27-kit/core';
 import SignClient from '@cosmoskitconnect/packages/sign-client';
 import { EngineTypes, PairingTypes, SessionTypes } from '@cosmoskitconnect/packages/types';
 import type EventEmitter from 'events';

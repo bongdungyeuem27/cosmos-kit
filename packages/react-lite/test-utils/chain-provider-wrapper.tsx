@@ -1,11 +1,11 @@
 import { ChainProvider } from '../src'
 import { assets, chains } from 'chain-registry'
-import { wallets as keplrWallets } from "@cosmos-kit/keplr-extension";
-import { wallets as leapWallets } from "@cosmos-kit/leap-extension";
-import { wallets as stationWallets } from "@cosmos-kit/station-extension";
+import { wallets as keplrWallets } from "@bongdungyeuem27-kit/keplr-extension";
+import { wallets as leapWallets } from "@bongdungyeuem27-kit/leap-extension";
+import { wallets as stationWallets } from "@bongdungyeuem27-kit/station-extension";
 import React from 'react'
 import { Chain } from '@chain-registry/types';
-import { ChainName } from '@cosmos-kit/core';
+import { ChainName } from '@bongdungyeuem27-kit/core';
 import { Decimal } from "@cosmjs/math";
 import { GasPrice } from "@cosmjs/stargate";
 

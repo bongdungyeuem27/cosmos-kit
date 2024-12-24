@@ -2,7 +2,7 @@
 import { AminoSignResponse, StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { OfflineDirectSigner, OfflineSigner } from '@cosmjs/proto-signing';
 import { DirectSignResponse } from '@cosmjs/proto-signing';
-import { SignOptions } from '@cosmos-kit/core';
+import { SignOptions } from '@bongdungyeuem27-kit/core';
 import { BroadcastMode, Key, StdTx } from '@keplr-wallet/types';
 export interface Okxwallet {
     enable(chainIds: string | string[]): Promise<void>;

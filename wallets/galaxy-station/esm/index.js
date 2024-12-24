@@ -1,2 +1,2 @@
-import { wallets as ext } from '@cosmos-kit/galaxy-station-extension';
+import { wallets as ext } from '@bongdungyeuem27-kit/galaxy-station-extension';
 export const wallets = [...ext];

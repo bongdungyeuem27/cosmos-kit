@@ -1,6 +1,6 @@
 import { StdSignDoc, StdSignature } from '@cosmjs/amino';
 import { Algo, OfflineDirectSigner } from '@cosmjs/proto-signing';
-import { BroadcastMode, ChainRecord, DirectSignDoc, SignOptions, SignType, WalletClient } from '@cosmos-kit/core';
+import { BroadcastMode, ChainRecord, DirectSignDoc, SignOptions, SignType, WalletClient } from '@bongdungyeuem27-kit/core';
 import { Fin } from './types';
 export declare class FinClient implements WalletClient {
     readonly client: Fin;

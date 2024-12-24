@@ -1,7 +1,7 @@
 /// <reference types="node" />
 import { StdSignDoc } from '@cosmjs/amino';
 import { Algo } from '@cosmjs/proto-signing';
-import { WalletClient } from '@cosmos-kit/core';
+import { WalletClient } from '@bongdungyeuem27-kit/core';
 import Cosmos from '@ledgerhq/hw-app-cosmos';
 export declare class LedgerClient implements WalletClient {
     client: Cosmos;

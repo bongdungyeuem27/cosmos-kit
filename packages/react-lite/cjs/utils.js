@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.sendAndListenOnce = exports.listenOnce = exports.getChainWalletContext = void 0;
-const core_1 = require("@cosmos-kit/core");
+const core_1 = require("@bongdungyeuem27-kit/core");
 function getChainWalletContext(chainId, wallet, sync = true) {
     const walletAssert = (func, params = [], name) => {
         if (!wallet) {

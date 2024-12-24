@@ -1,5 +1,5 @@
 import { StdSignature, StdSignDoc } from '@cosmjs/amino';
-import { BroadcastMode, ChainRecord, DirectSignDoc, SignOptions, SignType, SuggestToken, WalletClient } from '@cosmos-kit/core';
+import { BroadcastMode, ChainRecord, DirectSignDoc, SignOptions, SignType, SuggestToken, WalletClient } from '@bongdungyeuem27-kit/core';
 import { Cosmostation } from './types';
 import { DirectSignResponse } from '@cosmjs/proto-signing';
 import { SignDoc } from 'cosmjs-types/cosmos/tx/v1beta1/tx';

@@ -1,4 +1,4 @@
-import { BroadcastMode, DirectSignDoc, WalletClient } from '@cosmos-kit/core';
+import { BroadcastMode, DirectSignDoc, WalletClient } from '@bongdungyeuem27-kit/core';
 import type { AccountData, DirectSignResponse, ExodusCosmosProvider, StdSignDoc } from '../types';
 export declare class ExodusClient implements WalletClient {
     readonly client: ExodusCosmosProvider;

@@ -1,4 +1,4 @@
-import { ChainWC } from '@cosmos-kit/walletconnect';
+import { ChainWC } from '@bongdungyeuem27-kit/walletconnect';
 import { CosmostationClient } from './client';
 export class ChainCosmostationMobile extends ChainWC {
     constructor(walletInfo, chainInfo) {

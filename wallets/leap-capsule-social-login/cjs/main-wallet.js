@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LeapCapsuleWallet = void 0;
-const core_1 = require("@cosmos-kit/core");
+const core_1 = require("@bongdungyeuem27-kit/core");
 const cosmos_social_login_capsule_provider_1 = require("@leapwallet/cosmos-social-login-capsule-provider");
 const chain_wallet_1 = require("./chain-wallet");
 const client_1 = require("./client");

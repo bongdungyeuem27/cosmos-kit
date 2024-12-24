@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FinExtensionWallet = void 0;
-const core_1 = require("@cosmos-kit/core");
+const core_1 = require("@bongdungyeuem27-kit/core");
 const client_1 = require("./client");
 const utils_1 = require("./utils");
 const chain_wallet_1 = require("./chain-wallet");

@@ -1,1 +1,1 @@
-export declare const wallets: import("@cosmos-kit/shell-extension").ShellExtensionWallet[];
+export declare const wallets: import("@bongdungyeuem27-kit/shell-extension").ShellExtensionWallet[];

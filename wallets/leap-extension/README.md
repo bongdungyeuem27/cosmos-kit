@@ -1,4 +1,4 @@
-# @cosmos-kit/leap-extension
+# @bongdungyeuem27-kit/leap-extension
 
 <p align="center" width="100%">
     <img height="90" src="https://user-images.githubusercontent.com/545047/190171432-5526db8f-9952-45ce-a745-bea4302f912b.svg" />
@@ -9,12 +9,12 @@
     <img height="20" src="https://github.com/cosmology-tech/cosmos-kit/actions/workflows/run-tests.yml/badge.svg" />
   </a>
    <a href="https://github.com/cosmology-tech/cosmos-kit/blob/main/wallets/leap-extension/LICENSE"><img height="20" src="https://img.shields.io/badge/license-BSD%203--Clause%20Clear-blue.svg"></a>
-   <a href="https://www.npmjs.com/package/@cosmos-kit/leap-extension"><img height="20" src="https://img.shields.io/github/package-json/v/cosmology-tech/cosmos-kit?filename=wallets%2Fleap-extension%2Fpackage.json"></a>
+   <a href="https://www.npmjs.com/package/@bongdungyeuem27-kit/leap-extension"><img height="20" src="https://img.shields.io/github/package-json/v/cosmology-tech/cosmos-kit?filename=wallets%2Fleap-extension%2Fpackage.json"></a>
 </p>
 
 Cosmos Kit is a universal wallet adapter for developers to build apps that quickly and easily interact with Cosmos blockchains and wallets.
 
-@cosmos-kit/leap-extension is the leap integration for CosmosKit.
+@bongdungyeuem27-kit/leap-extension is the leap integration for CosmosKit.
 
 ## Related
 

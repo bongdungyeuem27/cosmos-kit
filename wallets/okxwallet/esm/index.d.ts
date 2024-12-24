@@ -1,1 +1,1 @@
-export declare const wallets: import("@cosmos-kit/okxwallet-extension").OkxwalletExtensionWallet[];
+export declare const wallets: import('@bongdungyeuem27-kit/okxwallet-extension').OkxwalletExtensionWallet[];

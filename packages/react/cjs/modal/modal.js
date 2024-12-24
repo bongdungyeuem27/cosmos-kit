@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DefaultModal = exports.WalletModal = void 0;
 const jsx_runtime_1 = require("react/jsx-runtime");
-const core_1 = require("@cosmos-kit/core");
+const core_1 = require("@bongdungyeuem27-kit/core");
 const react_1 = require("@interchain-ui/react");
 const react_2 = require("react");
 const views_1 = require("./components/views");

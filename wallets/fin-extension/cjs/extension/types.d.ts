@@ -2,7 +2,7 @@
 import { AminoSignResponse, OfflineAminoSigner, StdSignDoc } from '@cosmjs/amino';
 import { OfflineDirectSigner, OfflineSigner } from '@cosmjs/proto-signing';
 import { DirectSignResponse } from '@cosmjs/proto-signing';
-import { BroadcastMode } from '@cosmos-kit/core';
+import { BroadcastMode } from '@bongdungyeuem27-kit/core';
 import type { ChainInfo } from '@keplr-wallet/types';
 import type { StdSignature } from '@cosmjs/amino';
 export interface Key {

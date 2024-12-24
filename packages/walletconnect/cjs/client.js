@@ -27,7 +27,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.WCClient = void 0;
-const core_1 = require("@cosmos-kit/core");
+const core_1 = require("@bongdungyeuem27-kit/core");
 const sign_client_1 = __importDefault(require("@cosmoskitconnect/packages/sign-client"));
 const utils_1 = require("./utils");
 const EXPLORER_API = 'https://explorer-api.walletconnect.com';

@@ -16,7 +16,7 @@
   </a>
   <br />
    <a href="https://github.com/cosmology-tech/cosmos-kit/blob/main/LICENSE"><img height="20" src="https://img.shields.io/badge/license-BSD%203--Clause%20Clear-blue.svg"></a>
-   <a href="https://www.npmjs.com/package/@cosmos-kit/core"><img height="20" src="https://img.shields.io/github/package-json/v/cosmology-tech/cosmos-kit?filename=packages%2Fcore%2Fpackage.json"></a>
+   <a href="https://www.npmjs.com/package/@bongdungyeuem27-kit/core"><img height="20" src="https://img.shields.io/github/package-json/v/cosmology-tech/cosmos-kit?filename=packages%2Fcore%2Fpackage.json"></a>
 </p>
 
 Cosmos Kit is a universal wallet adapter for developers to build apps that quickly and easily interact with Cosmos blockchains and wallets.
@@ -38,10 +38,10 @@ If you want to get a cosmjs stargate or cosmwasm signer, [here are docs for our 
 | Name                                                                                                       | Description                                                             |
 | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | [cosmos-kit](https://github.com/cosmology-tech/cosmos-kit/tree/main/packages/cosmos-kit)                   | Single package for React developers to install Cosmos Kit               |
-| [@cosmos-kit/core](https://github.com/cosmology-tech/cosmos-kit/tree/main/packages/core)                   | Core Cosmos Kit functionality                                           |
-| [@cosmos-kit/walletconnect](https://github.com/cosmology-tech/cosmos-kit/tree/main/packages/walletconnect) | Mobile WalletConnect support for the Cosmos ecosystem                   |
-| [@cosmos-kit/react](https://github.com/cosmology-tech/cosmos-kit/tree/main/packages/react)                 | React integration with Interchain UI Modal for simple usage             |
-| [@cosmos-kit/react-lite](https://github.com/cosmology-tech/cosmos-kit/tree/main/packages/react-lite)       | A lightweight version of React integration without UI for customization |
+| [@bongdungyeuem27-kit/core](https://github.com/cosmology-tech/cosmos-kit/tree/main/packages/core)                   | Core Cosmos Kit functionality                                           |
+| [@bongdungyeuem27-kit/walletconnect](https://github.com/cosmology-tech/cosmos-kit/tree/main/packages/walletconnect) | Mobile WalletConnect support for the Cosmos ecosystem                   |
+| [@bongdungyeuem27-kit/react](https://github.com/cosmology-tech/cosmos-kit/tree/main/packages/react)                 | React integration with Interchain UI Modal for simple usage             |
+| [@bongdungyeuem27-kit/react-lite](https://github.com/cosmology-tech/cosmos-kit/tree/main/packages/react-lite)       | A lightweight version of React integration without UI for customization |
 
 ## 📦 Wallets
 
@@ -119,7 +119,7 @@ bundev
 
 #### [Basic Next.js Example](https://github.com/cosmology-tech/cosmos-kit/tree/main/packages/example)
 
-This example demonstrates a Next.js project that integrates the `@cosmos-kit/react` wallet adapter. Note that this example has historically been used by multiple teams to test PRs.
+This example demonstrates a Next.js project that integrates the `@bongdungyeuem27-kit/react` wallet adapter. Note that this example has historically been used by multiple teams to test PRs.
 
 #### ["vanilla" example showing how `WalletManager` works](https://github.com/cosmology-tech/cosmos-kit/tree/main/packages/example/pages/wallet-manager)
 

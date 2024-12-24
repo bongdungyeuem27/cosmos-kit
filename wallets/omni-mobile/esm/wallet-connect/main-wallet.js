@@ -1,4 +1,4 @@
-import { WCWallet } from '@cosmos-kit/walletconnect';
+import { WCWallet } from '@bongdungyeuem27-kit/walletconnect';
 import { ChainOmniMobile } from './chain-wallet';
 import { OmniClient } from './client';
 export class OmniMobileWallet extends WCWallet {

@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.wallets = exports.createAllWalletList = exports.defineGetters = exports.keplr = exports.createWalletList = void 0;
-const keplr_extension_1 = require("@cosmos-kit/keplr-extension");
-const keplr_mobile_1 = require("@cosmos-kit/keplr-mobile");
+const keplr_extension_1 = require("@bongdungyeuem27-kit/keplr-extension");
+const keplr_mobile_1 = require("@bongdungyeuem27-kit/keplr-mobile");
 function createWalletList(extension, mobile, snap) {
     const list = [extension, mobile, snap].filter((wallet) => Boolean(wallet));
     list.mobile = mobile;

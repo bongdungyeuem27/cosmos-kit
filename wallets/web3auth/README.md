@@ -1,8 +1,8 @@
-# @cosmos-kit/web3auth
+# @bongdungyeuem27-kit/web3auth
 
 Cosmos Kit is a universal wallet adapter for developers to build apps that quickly and easily interact with Cosmos blockchains and wallets.
 
-@cosmos-kit/web3auth is the [https://web3auth.io][web3auth.io] integration for CosmosKit.
+@bongdungyeuem27-kit/web3auth is the [https://web3auth.io][web3auth.io] integration for CosmosKit.
 
 ## Related
 

@@ -1,6 +1,6 @@
 import { OfflineAminoSigner, StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { OfflineDirectSigner } from '@cosmjs/proto-signing';
-import { ChainRecord, DirectSignDoc, SignOptions, SignType, SuggestToken, WalletAccount, WalletClient } from '@cosmos-kit/core';
+import { ChainRecord, DirectSignDoc, SignOptions, SignType, SuggestToken, WalletAccount, WalletClient } from '@bongdungyeuem27-kit/core';
 import { BroadcastMode, Keplr } from '@keplr-wallet/types';
 export declare class KeplrClient implements WalletClient {
     readonly client: Keplr;

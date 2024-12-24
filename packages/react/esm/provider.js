@@ -1,6 +1,6 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-import { Logger, } from '@cosmos-kit/core';
-import { ChainProvider as ChainProviderLite } from '@cosmos-kit/react-lite';
+import { Logger, } from '@bongdungyeuem27-kit/core';
+import { ChainProvider as ChainProviderLite } from '@bongdungyeuem27-kit/react-lite';
 import { useCallback, useMemo } from 'react';
 import { WalletModal } from './modal';
 import { defaultModalViews } from './modal/components/views';

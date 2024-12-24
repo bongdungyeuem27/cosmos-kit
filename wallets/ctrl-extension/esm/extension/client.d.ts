@@ -1,7 +1,7 @@
 import { StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { Algo, OfflineDirectSigner } from '@cosmjs/proto-signing';
-import { BroadcastMode, SignType } from '@cosmos-kit/core';
-import { DirectSignDoc, SignOptions, WalletClient } from '@cosmos-kit/core';
+import { BroadcastMode, SignType } from '@bongdungyeuem27-kit/core';
+import { DirectSignDoc, SignOptions, WalletClient } from '@bongdungyeuem27-kit/core';
 import { CTRL } from './types';
 export declare class CTRLClient implements WalletClient {
     readonly client: CTRL;

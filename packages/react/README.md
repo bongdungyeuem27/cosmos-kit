@@ -8,16 +8,16 @@
   <a href="https://github.com/cosmology-tech/cosmos-kit/actions/workflows/run-tests.yml">
     <img height="20" src="https://github.com/cosmology-tech/cosmos-kit/actions/workflows/run-tests.yml/badge.svg" />
   </a>
-  <a href="https://www.npmjs.com/package/@cosmos-kit/react">
-    <img height="20" src="https://img.shields.io/npm/dt/@cosmos-kit/react" />
+  <a href="https://www.npmjs.com/package/@bongdungyeuem27-kit/react">
+    <img height="20" src="https://img.shields.io/npm/dt/@bongdungyeuem27-kit/react" />
   </a>
    <a href="https://github.com/cosmology-tech/cosmos-kit/blob/main/packages/core/LICENSE"><img height="20" src="https://img.shields.io/badge/license-BSD%203--Clause%20Clear-blue.svg"></a>
-   <a href="https://www.npmjs.com/package/@cosmos-kit/react"><img height="20" src="https://img.shields.io/github/package-json/v/cosmology-tech/cosmos-kit?filename=packages%2Freact%2Fpackage.json"></a>
+   <a href="https://www.npmjs.com/package/@bongdungyeuem27-kit/react"><img height="20" src="https://img.shields.io/github/package-json/v/cosmology-tech/cosmos-kit?filename=packages%2Freact%2Fpackage.json"></a>
 </p>
 
 Cosmos Kit is a universal wallet adapter for developers to build apps that quickly and easily interact with Cosmos blockchains and wallets.
 
-@cosmos-kit/react is the React integration for CosmosKit.
+@bongdungyeuem27-kit/react is the React integration for CosmosKit.
 
 ## Documentation
 
@@ -26,7 +26,7 @@ Cosmos Kit is a universal wallet adapter for developers to build apps that quick
 ## Installation
 
 ```sh
-bunadd @cosmos-kit/react @cosmos-kit/core @cosmos-kit/keplr chain-registry
+bunadd @bongdungyeuem27-kit/react @bongdungyeuem27-kit/core @bongdungyeuem27-kit/keplr chain-registry
 ```
 
 ## Provider
