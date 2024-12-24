@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1-beta.7](https://github.com/cosmology-tech/cosmos-kit/compare/@bongdungyeuem27-kit/keplr-mobile@0.1.1-beta.6...@bongdungyeuem27-kit/keplr-mobile@0.1.1-beta.7) (2024-12-24)
+
+### Bug Fixes
+
+- absolute path ([84793a2](https://github.com/cosmology-tech/cosmos-kit/commit/84793a2442fad197c4ab0598fc5760d29044c83e))
+
 ## [0.1.1-beta.6](https://github.com/cosmology-tech/cosmos-kit/compare/@bongdungyeuem27-kit/keplr-mobile@0.1.1-beta.5...@bongdungyeuem27-kit/keplr-mobile@0.1.1-beta.6) (2024-12-24)
 
 ### Bug Fixes

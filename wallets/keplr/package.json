@@ -1,6 +1,6 @@
 {
   "name": "@bongdungyeuem27-kit/keplr",
-  "version": "0.1.1-beta.6",
+  "version": "0.1.1-beta.7",
   "description": "cosmos-kit wallet connector",
   "author": "developers@cosmology.zone",
   "contributors": [
@@ -65,8 +65,8 @@
     "url": "https://github.com/cosmology-tech/cosmos-kit/issues"
   },
   "dependencies": {
-    "@bongdungyeuem27-kit/keplr-extension": "^0.1.1-beta.6",
-    "@bongdungyeuem27-kit/keplr-mobile": "^0.1.1-beta.6"
+    "@bongdungyeuem27-kit/keplr-extension": "^0.1.1-beta.7",
+    "@bongdungyeuem27-kit/keplr-mobile": "^0.1.1-beta.7"
   },
   "gitHead": "f74bc97e387122acdd14eb079b4a1a5af6837ec5"
 }
