@@ -1,6 +1,6 @@
 {
   "name": "@bongdungyeuem27-kit/leap-capsule-social-login",
-  "version": "0.1.1-beta.2",
+  "version": "0.1.1-beta.3",
   "description": "cosmos-kit wallet connector",
   "author": "samvel@leapwallet.io",
   "contributors": [
@@ -59,8 +59,8 @@
     ]
   },
   "dependencies": {
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.3",
     "@chain-registry/keplr": "^1.69.13",
-    "@bongdungyeuem27-kit/core": "^0.1.1-beta.2",
     "@leapwallet/cosmos-social-login-capsule-provider": "0.0.41"
   },
   "peerDependencies": {

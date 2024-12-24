@@ -1,6 +1,6 @@
 {
   "name": "@bongdungyeuem27-kit/cosmos-extension-metamask",
-  "version": "0.1.1-beta.2",
+  "version": "0.1.1-beta.3",
   "description": "cosmos-kit wallet connector for the official Cosmos Extension for Metamask",
   "author": "joe@mysticlabs.xyz",
   "contributors": [
@@ -60,8 +60,8 @@
     ]
   },
   "dependencies": {
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.3",
     "@chain-registry/keplr": "^1.69.13",
-    "@bongdungyeuem27-kit/core": "^0.1.1-beta.2",
     "@cosmsnap/snapper": "^0.2.5",
     "cosmjs-types": ">=0.9.0"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@bongdungyeuem27-kit/owallet-mobile",
-  "version": "0.1.1-beta.2",
+  "version": "0.1.1-beta.3",
   "description": "cosmos-kit wallet connector",
   "author": "defi@orai.io",
   "contributors": [
@@ -71,9 +71,9 @@
     ]
   },
   "dependencies": {
-    "@chain-registry/keplr": "1.68.2",
-    "@bongdungyeuem27-kit/core": "^0.1.1-beta.2",
-    "@bongdungyeuem27-kit/walletconnect": "^0.1.1-beta.2"
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.3",
+    "@bongdungyeuem27-kit/walletconnect": "^0.1.1-beta.3",
+    "@chain-registry/keplr": "1.68.2"
   },
   "gitHead": "40e08d787dfb97992949d267adfcdd560a162783"
 }

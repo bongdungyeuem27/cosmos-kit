@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1-beta.3](https://github.com/cosmology-tech/cosmos-kit/compare/cosmos-kit@0.1.1-beta.2...cosmos-kit@0.1.1-beta.3) (2024-12-24)
+
+### Bug Fixes
+
+- test ([13b4cb8](https://github.com/cosmology-tech/cosmos-kit/commit/13b4cb84123a089ce69e17f4c208580dbe94aa69))
+
 ## [0.1.1-beta.2](https://github.com/cosmology-tech/cosmos-kit/compare/cosmos-kit@0.1.1-beta.1...cosmos-kit@0.1.1-beta.2) (2024-12-24)
 
 ### Bug Fixes

@@ -1,6 +1,6 @@
 {
   "name": "@bongdungyeuem27-kit/fin",
-  "version": "0.1.1-beta.2",
+  "version": "0.1.1-beta.3",
   "description": "cosmos-kit wallet connector",
   "author": "quangmv@coin98.finance",
   "contributors": [
@@ -53,7 +53,7 @@
     "url": "https://github.com/cosmology-tech/cosmos-kit/issues"
   },
   "dependencies": {
-    "@bongdungyeuem27-kit/fin-extension": "^0.1.1-beta.2"
+    "@bongdungyeuem27-kit/fin-extension": "^0.1.1-beta.3"
   },
   "gitHead": "40e08d787dfb97992949d267adfcdd560a162783"
 }

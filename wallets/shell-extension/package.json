@@ -1,6 +1,6 @@
 {
   "name": "@bongdungyeuem27-kit/shell-extension",
-  "version": "0.1.1-beta.2",
+  "version": "0.1.1-beta.3",
   "description": "cosmos-kit wallet connector",
   "author": "developers@cosmology.zone",
   "contributors": [
@@ -71,8 +71,8 @@
     ]
   },
   "dependencies": {
-    "@chain-registry/keplr": "^1.69.13",
-    "@bongdungyeuem27-kit/core": "^0.1.1-beta.2"
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.3",
+    "@chain-registry/keplr": "^1.69.13"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",

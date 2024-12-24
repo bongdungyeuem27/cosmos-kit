@@ -1,6 +1,6 @@
 {
   "name": "@bongdungyeuem27-kit/prax-extension",
-  "version": "0.1.1-beta.2",
+  "version": "0.1.1-beta.3",
   "description": "cosmos-kit wallet connector for Prax",
   "homepage": "https://github.com/cosmology-tech/cosmos-kit#readme",
   "license": "SEE LICENSE IN LICENSE",
@@ -48,8 +48,8 @@
     "url": "https://github.com/cosmology-tech/cosmos-kit/issues"
   },
   "dependencies": {
-    "@chain-registry/keplr": "^1.69.13",
-    "@bongdungyeuem27-kit/core": "^0.1.1-beta.2"
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.3",
+    "@chain-registry/keplr": "^1.69.13"
   },
   "devDependencies": {
     "@bufbuild/protobuf": "^1.10.0",

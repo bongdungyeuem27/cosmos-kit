@@ -1,6 +1,6 @@
 {
   "name": "@bongdungyeuem27-kit/galaxy-station-extension",
-  "version": "0.1.1-beta.2",
+  "version": "0.1.1-beta.3",
   "description": "@bongdungyeuem27-kit/galaxy-station-extension is the Galaxy Station integration for CosmosKit",
   "author": "Hexxagon",
   "homepage": "https://github.com/cosmology-tech/cosmos-kit#readme",
@@ -55,8 +55,8 @@
     ]
   },
   "dependencies": {
+    "@bongdungyeuem27-kit/core": "^0.1.1-beta.3",
     "@chain-registry/types": "0.46.11",
-    "@bongdungyeuem27-kit/core": "^0.1.1-beta.2",
     "@hexxagon/feather.js": "^1.0.9-beta.8",
     "@hexxagon/station-connector": "^1.0.17"
   },

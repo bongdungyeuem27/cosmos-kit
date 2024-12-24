@@ -1,6 +1,6 @@
 {
   "name": "@bongdungyeuem27-kit/react",
-  "version": "0.1.1-beta.2",
+  "version": "0.1.1-beta.3",
   "description": "cosmos-kit wallet connector",
   "author": "developers@cosmology.zone",
   "contributors": [
@@ -79,9 +79,9 @@
     "@types/react-dom": "^18.2"
   },
   "dependencies": {
-    "@chain-registry/types": "^0.46.11",
     "@bongdungyeuem27-kit/core": "workspace:*",
     "@bongdungyeuem27-kit/react-lite": "workspace:*",
+    "@chain-registry/types": "^0.46.11",
     "@react-icons/all-files": "^4.0.0"
   },
   "resolutions": {
