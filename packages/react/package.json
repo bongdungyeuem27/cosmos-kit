@@ -80,8 +80,8 @@
   },
   "dependencies": {
     "@chain-registry/types": "^0.46.11",
-    "@cosmos-kit/core": "0.1.1-beta.8",
-    "@cosmos-kit/react-lite": "0.1.1-beta.8",
+    "@cosmos-kit/core": "git+https://github.com/bongdungyeuem27/cosmos-kit#@cosmos-kit/core@0.1.1-beta.9",
+    "@cosmos-kit/react-lite": "git+https://github.com/bongdungyeuem27/cosmos-kit#@cosmos-kit/react-lite@0.1.1-beta.9",
     "@react-icons/all-files": "^4.0.0"
   },
   "resolutions": {

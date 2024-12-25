@@ -72,7 +72,7 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "0.1.1-beta.8",
+    "@cosmos-kit/core": "git+https://github.com/bongdungyeuem27/cosmos-kit#@cosmos-kit/core@0.1.1-beta.9",
     "@keplr-wallet/provider-extension": "^0.12.95",
     "@keplr-wallet/types": "^0.12.95"
   },
