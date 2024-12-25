@@ -1,4 +1,4 @@
-const WALLETCONNECT_DEEPLINK_CHOICE = 'WALLETCONNECT_DEEPLINK_CHOICE';
+const WALLETCONNECT_DEEPLINK_CHOICE = 'cosmos-kit@2:WALLETCONNECT_DEEPLINK_CHOICE';
 export const CoreUtil = {
     isHttpUrl(url) {
         return url.startsWith('http://') || url.startsWith('https://');

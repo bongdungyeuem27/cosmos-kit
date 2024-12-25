@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CoreUtil = void 0;
-const WALLETCONNECT_DEEPLINK_CHOICE = 'WALLETCONNECT_DEEPLINK_CHOICE';
+const WALLETCONNECT_DEEPLINK_CHOICE = 'cosmos-kit@2:WALLETCONNECT_DEEPLINK_CHOICE';
 exports.CoreUtil = {
     isHttpUrl(url) {
         return url.startsWith('http://') || url.startsWith('https://');
