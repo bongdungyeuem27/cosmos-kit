@@ -79,7 +79,7 @@
   },
   "dependencies": {
     "@chain-registry/types": "^0.46.11",
-    "@cosmos-kit/core": "workspace:*",
+    "@cosmos-kit/core": "0.1.1-beta.8",
     "@dao-dao/cosmiframe": "^0.1.0"
   },
   "resolutions": {
@@ -91,5 +91,5 @@
     "react": "^18",
     "react-dom": "^18"
   },
-  "gitHead": "e0eaa3499fa984d78e65ab866813c6974d449111"
+  "gitHead": "deae66203d83a6e1d8b40c1d5f5644fb644b0b1c"
 }

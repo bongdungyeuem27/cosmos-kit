@@ -65,8 +65,8 @@
     "url": "https://github.com/cosmology-tech/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/keplr-extension": "workspace:*",
-    "@cosmos-kit/keplr-mobile": "workspace:*"
+    "@cosmos-kit/keplr-extension": "0.1.1-beta.8",
+    "@cosmos-kit/keplr-mobile": "0.1.1-beta.8"
   },
-  "gitHead": "e0eaa3499fa984d78e65ab866813c6974d449111"
+  "gitHead": "deae66203d83a6e1d8b40c1d5f5644fb644b0b1c"
 }
