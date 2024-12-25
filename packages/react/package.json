@@ -80,8 +80,8 @@
   },
   "dependencies": {
     "@chain-registry/types": "^0.46.11",
-    "@cosmos-kit/core": "workspace:*",
-    "@cosmos-kit/react-lite": "workspace:*",
+    "@cosmos-kit/core": "0.1.1-beta.10",
+    "@cosmos-kit/react-lite": "0.1.1-beta.10",
     "@react-icons/all-files": "^4.0.0"
   },
   "resolutions": {
@@ -95,5 +95,5 @@
     "react-dom": "^18"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "gitHead": "6a35ed258a6eb13da273b83a9fe2611108fa7547"
+  "gitHead": "f00213f0734b21958f1a126ada6987d5ea37a9d2"
 }

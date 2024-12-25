@@ -74,12 +74,12 @@
   },
   "dependencies": {
     "@cosmjs/proto-signing": "^0.32.3",
-    "@cosmos-kit/core": "workspace:*",
+    "@cosmos-kit/core": "0.1.1-beta.10",
     "events": "3.3.0"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",
     "@cosmoskitconnect": "git+https://github.com/bongdungyeuem27/cosmoskitconnect#main"
   },
-  "gitHead": "6a35ed258a6eb13da273b83a9fe2611108fa7547"
+  "gitHead": "f00213f0734b21958f1a126ada6987d5ea37a9d2"
 }
