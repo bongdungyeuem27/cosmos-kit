@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1-beta.11](https://github.com/cosmology-tech/cosmos-kit/compare/@cosmos-kit/ins@0.1.1-beta.10...@cosmos-kit/ins@0.1.1-beta.11) (2024-12-25)
+
+### Bug Fixes
+
+- 10 ([b5f4e81](https://github.com/cosmology-tech/cosmos-kit/commit/b5f4e8199308b3500dd6952a5b0c9e9a35d35346))
+
 ## [0.1.1-beta.10](https://github.com/cosmology-tech/cosmos-kit/compare/@cosmos-kit/ins@0.1.1-beta.9...@cosmos-kit/ins@0.1.1-beta.10) (2024-12-25)
 
 **Note:** Version bump only for package @cosmos-kit/ins
