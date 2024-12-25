@@ -1,4 +1,4 @@
-import { MainWalletBase } from '@bongdungyeuem27-kit/core';
+import { MainWalletBase } from '@cosmos-kit/core';
 export declare type WalletName =
   | 'keplr'
   | 'cosmostation'
@@ -43,77 +43,77 @@ export declare function createWalletList<
   snap?: MetaMaskSnap
 ): WalletList<ExtensionWallet, MobileWallet>;
 export declare const keplr: WalletList<
-  import('@bongdungyeuem27-kit/keplr-extension').KeplrExtensionWallet,
-  import('@bongdungyeuem27-kit/keplr-mobile').KeplrMobileWallet
+  import('@cosmos-kit/keplr-extension').KeplrExtensionWallet,
+  import('@cosmos-kit/keplr-mobile').KeplrMobileWallet
 >;
 export declare const cosmostation: WalletList<
-  import('@bongdungyeuem27-kit/cosmostation-extension').CosmostationExtensionWallet,
-  import('@bongdungyeuem27-kit/cosmostation-mobile').CosmostationMobileWallet
+  import('@cosmos-kit/cosmostation-extension').CosmostationExtensionWallet,
+  import('@cosmos-kit/cosmostation-mobile').CosmostationMobileWallet
 >;
-export declare const ledger: import('@bongdungyeuem27-kit/ledger/cjs/web-usb-hid').LedgerMainWallet[];
+export declare const ledger: import('@cosmos-kit/ledger/cjs/web-usb-hid').LedgerMainWallet[];
 export declare const leap: WalletList<
-  import('@bongdungyeuem27-kit/leap-extension').LeapExtensionWallet,
-  import('@bongdungyeuem27-kit/leap-mobile').LeapMobileWallet
+  import('@cosmos-kit/leap-extension').LeapExtensionWallet,
+  import('@cosmos-kit/leap-mobile').LeapMobileWallet
 >;
 export declare const station: WalletList<
-  import('@bongdungyeuem27-kit/station-extension').StationExtensionWallet,
+  import('@cosmos-kit/station-extension').StationExtensionWallet,
   any
 >;
 export declare const okxwallet: WalletList<
-  import('@bongdungyeuem27-kit/okxwallet-extension').OkxwalletExtensionWallet,
+  import('@cosmos-kit/okxwallet-extension').OkxwalletExtensionWallet,
   any
 >;
 export declare const trust: WalletList<
-  import('@bongdungyeuem27-kit/trust-extension').TrustExtensionWallet,
-  import('@bongdungyeuem27-kit/trust-mobile').TrustMobileWallet
+  import('@cosmos-kit/trust-extension').TrustExtensionWallet,
+  import('@cosmos-kit/trust-mobile').TrustMobileWallet
 >;
 export declare const ctrl: WalletList<
-  import('@bongdungyeuem27-kit/ctrl-extension').CTRLExtensionWallet,
+  import('@cosmos-kit/ctrl-extension').CTRLExtensionWallet,
   any
 >;
 export declare const vectis: WalletList<
-  import('@bongdungyeuem27-kit/vectis-extension').VectisExtensionWallet,
+  import('@cosmos-kit/vectis-extension').VectisExtensionWallet,
   any
 >;
 export declare const frontier: WalletList<
-  import('@bongdungyeuem27-kit/frontier-extension').FrontierExtensionWallet,
+  import('@cosmos-kit/frontier-extension').FrontierExtensionWallet,
   any
 >;
 export declare const fin: WalletList<
-  import('@bongdungyeuem27-kit/fin-extension').FinExtensionWallet,
+  import('@cosmos-kit/fin-extension').FinExtensionWallet,
   any
 >;
 export declare const omni: WalletList<
   any,
-  import('@bongdungyeuem27-kit/omni-mobile').OmniMobileWallet
+  import('@cosmos-kit/omni-mobile').OmniMobileWallet
 >;
 export declare const shell: WalletList<
-  import('@bongdungyeuem27-kit/shell-extension').ShellExtensionWallet,
+  import('@cosmos-kit/shell-extension').ShellExtensionWallet,
   any
 >;
 export declare const coin98: WalletList<
-  import('@bongdungyeuem27-kit/coin98-extension').Coin98ExtensionWallet,
+  import('@cosmos-kit/coin98-extension').Coin98ExtensionWallet,
   any
 >;
 export declare const compass: WalletList<
-  import('@bongdungyeuem27-kit/compass-extension').CompassExtensionWallet,
+  import('@cosmos-kit/compass-extension').CompassExtensionWallet,
   any
 >;
 export declare const exodus: WalletList<
-  import('@bongdungyeuem27-kit/exodus-extension').ExodusExtensionWallet,
+  import('@cosmos-kit/exodus-extension').ExodusExtensionWallet,
   any
 >;
 export declare const tailwind: WalletList<MainWalletBase, any>;
 export declare const owallet: WalletList<
-  import('@bongdungyeuem27-kit/owallet-extension').OwalletExtensionWallet,
-  import('@bongdungyeuem27-kit/owallet-mobile').OWalletMobileWallet
+  import('@cosmos-kit/owallet-extension').OwalletExtensionWallet,
+  import('@cosmos-kit/owallet-mobile').OWalletMobileWallet
 >;
 export declare const galaxystation: WalletList<
-  import('@bongdungyeuem27-kit/galaxy-station-extension').GalaxyStationExtensionWallet,
+  import('@cosmos-kit/galaxy-station-extension').GalaxyStationExtensionWallet,
   any
 >;
 export declare const cdcwallet: WalletList<
-  import('@bongdungyeuem27-kit/cdcwallet-extension').CdcwalletExtensionWallet,
+  import('@cosmos-kit/cdcwallet-extension').CdcwalletExtensionWallet,
   any
 >;
 export declare type SubWalletList = MainWalletBase[] & {

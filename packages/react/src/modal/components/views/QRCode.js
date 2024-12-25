@@ -1,6 +1,6 @@
+import { ExpiredError, State } from '@cosmos-kit/core';
+import { ConnectModalHead, ConnectModalQRCode } from '@interchain-ui/react';
 import { jsx as _jsx } from "react/jsx-runtime";
-import { ExpiredError, State } from '@bongdungyeuem27-kit/core';
-import { ConnectModalHead, ConnectModalQRCode, } from '@interchain-ui/react';
 export function QRCodeView({ onClose, onReturn, wallet, }) {
     const { walletInfo: { prettyName }, } = wallet;
     const { data, state, message } = wallet.qrUrl ?? {};

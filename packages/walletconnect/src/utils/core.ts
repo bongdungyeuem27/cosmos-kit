@@ -1,4 +1,4 @@
-import { OS } from '@bongdungyeuem27-kit/core';
+import { OS } from '@cosmos-kit/core';
 
 const WALLETCONNECT_DEEPLINK_CHOICE = 'WALLETCONNECT_DEEPLINK_CHOICE';
 

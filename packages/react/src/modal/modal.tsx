@@ -6,7 +6,7 @@ import {
   WalletModalProps,
   WalletStatus,
   WalletViewProps,
-} from '@bongdungyeuem27-kit/core';
+} from '@cosmos-kit/core';
 import {
   ConnectModal,
   ThemeProvider,
@@ -20,13 +20,13 @@ import React, {
   useState,
 } from 'react';
 
+import { useSelectedWalletRepoContext } from '../context';
 import {
   defaultModalViews,
   ModalViewImpl,
   WalletListImplGetter,
   WalletViewImplGetter,
 } from './components/views';
-import { useSelectedWalletRepoContext } from '../context';
 
 export type ModalCustomizationProps = {
   modalContainerClassName?: string;
@@ -81,8 +81,10 @@ export function WalletModal({
     beforeConnect: { disconnect: disconnectOptions },
   });
 
-  const { selectedWalletRepoName } = useSelectedWalletRepoContext()
-  const current = walletRepo?.wallets.find(w => w.walletName === selectedWalletRepoName);
+  const { selectedWalletRepoName } = useSelectedWalletRepoContext();
+  const current = walletRepo?.wallets.find(
+    (w) => w.walletName === selectedWalletRepoName
+  );
 
   (current?.client as any)?.setActions?.({
     qrUrl: {

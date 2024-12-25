@@ -1,5 +1,5 @@
-import { COSMIFRAME_KEYSTORECHANGE_EVENT, COSMIFRAME_NOT_CONNECTED_MESSAGE, } from '@bongdungyeuem27-kit/core';
-import { Cosmiframe, } from '@dao-dao/cosmiframe';
+import { COSMIFRAME_KEYSTORECHANGE_EVENT, COSMIFRAME_NOT_CONNECTED_MESSAGE } from '@cosmos-kit/core';
+import { Cosmiframe } from '@dao-dao/cosmiframe';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useWallet } from './useWallet';
 export const useIframe = ({ walletName, metadata, walletClientOverrides, signerOverrides, origins, } = {}) => {

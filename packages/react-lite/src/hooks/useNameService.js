@@ -1,4 +1,4 @@
-import { getNameServiceRegistryFromName, State, } from '@bongdungyeuem27-kit/core';
+import { getNameServiceRegistryFromName, State } from '@cosmos-kit/core';
 import { useEffect, useMemo, useState } from 'react';
 import { useManager } from './useManager';
 export const useNameService = (name) => {

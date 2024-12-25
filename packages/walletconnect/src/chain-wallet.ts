@@ -1,11 +1,11 @@
 import {
+  ChainWalletBase,
+  State,
   type ChainRecord,
   type Mutable,
   type Wallet,
   type WalletConnectOptions,
-  ChainWalletBase,
-  State,
-} from '@bongdungyeuem27-kit/core';
+} from '@cosmos-kit/core';
 
 import { WCClient } from './client';
 import { IWCClient } from './types';

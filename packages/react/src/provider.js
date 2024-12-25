@@ -1,10 +1,10 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-import { Logger, } from '@bongdungyeuem27-kit/core';
-import { ChainProvider as ChainProviderLite } from '@bongdungyeuem27-kit/react-lite';
+import { Logger } from '@cosmos-kit/core';
+import { ChainProvider as ChainProviderLite } from '@cosmos-kit/react-lite';
 import { useCallback, useMemo } from 'react';
+import { jsx as _jsx } from "react/jsx-runtime";
+import { SelectedWalletRepoProvider } from './context';
 import { WalletModal } from './modal';
 import { defaultModalViews } from './modal/components/views';
-import { SelectedWalletRepoProvider } from './context';
 export const ChainProvider = ({ chains, assetLists, wallets, walletModal, modalViews, throwErrors = false, subscribeConnectEvents = true, defaultNameService = 'icns', walletConnectOptions, signerOptions, endpointOptions, sessionOptions, logLevel = 'WARN', allowedIframeParentOrigins = [
     'http://localhost:*',
     'https://localhost:*',

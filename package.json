@@ -1,5 +1,5 @@
 {
-  "name": "@bongdungyeuem27/cosmos-kit",
+  "name": "cosmos-kit",
   "version": "0.1.0",
   "publishConfig": {
     "access": "public"
@@ -54,7 +54,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bongdungyeuem27/cosmos-kit.git"
+    "url": "https://github.com/bongdungyeuem27/cosmos-kit.git"
   },
   "description": "<p align=\"center\" width=\"100%\">     <img height=\"90\" src=\"https://user-images.githubusercontent.com/545047/190171432-5526db8f-9952-45ce-a745-bea4302f912b.svg\" /> </p>",
   "main": ".",

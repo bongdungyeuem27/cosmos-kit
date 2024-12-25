@@ -10,7 +10,7 @@ import {
   SuggestToken,
   WalletAccount,
   WalletClient,
-} from '@bongdungyeuem27-kit/core';
+} from '@cosmos-kit/core';
 import { BroadcastMode, Keplr } from '@keplr-wallet/types';
 import Long from 'long';
 

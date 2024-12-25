@@ -1,5 +1,5 @@
 {
-  "name": "@bongdungyeuem27-kit/keplr-mobile",
+  "name": "@cosmos-kit/keplr-mobile",
   "version": "0.1.1-beta.7",
   "description": "cosmos-kit wallet connector",
   "author": "developers@cosmology.zone",
@@ -71,9 +71,9 @@
     ]
   },
   "dependencies": {
-    "@bongdungyeuem27-kit/core": "^0.1.1-beta.7",
-    "@bongdungyeuem27-kit/keplr-extension": "^0.1.1-beta.7",
-    "@bongdungyeuem27-kit/walletconnect": "^0.1.1-beta.7",
+    "@cosmos-kit/core": "^0.1.1-beta.7",
+    "@cosmos-kit/keplr-extension": "^0.1.1-beta.7",
+    "@cosmos-kit/walletconnect": "^0.1.1-beta.7",
     "@chain-registry/keplr": "^1.69.13",
     "@keplr-wallet/provider-extension": "^0.12.95",
     "@keplr-wallet/wc-client": "^0.12.95"

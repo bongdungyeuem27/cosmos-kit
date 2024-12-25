@@ -11,13 +11,13 @@ import {
   SignerOptions,
   WalletConnectOptions,
   WalletModalProps,
-} from '@bongdungyeuem27-kit/core';
-import { ChainProvider as ChainProviderLite } from '@bongdungyeuem27-kit/react-lite';
+} from '@cosmos-kit/core';
+import { ChainProvider as ChainProviderLite } from '@cosmos-kit/react-lite';
 import { ReactNode, useCallback, useMemo } from 'react';
 
+import { SelectedWalletRepoProvider } from './context';
 import { ThemeCustomizationProps, WalletModal } from './modal';
 import { defaultModalViews } from './modal/components/views';
-import { SelectedWalletRepoProvider } from './context';
 
 export const ChainProvider = ({
   chains,
@@ -41,7 +41,7 @@ export const ChainProvider = ({
     'https://dao.daodao.zone',
     'https://my.abstract.money',
     'https://apps.abstract.money',
-    'https://console.abstract.money'
+    'https://console.abstract.money',
   ],
   children,
   modalTheme = {},

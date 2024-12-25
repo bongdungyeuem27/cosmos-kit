@@ -1,5 +1,5 @@
-import { ChainRecord, Wallet } from '@bongdungyeuem27-kit/core';
-import { ChainWC } from '@bongdungyeuem27-kit/walletconnect';
+import { ChainRecord, Wallet } from '@cosmos-kit/core';
+import { ChainWC } from '@cosmos-kit/walletconnect';
 
 import { KeplrClient } from './client';
 

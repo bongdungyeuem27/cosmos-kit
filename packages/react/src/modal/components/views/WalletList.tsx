@@ -1,4 +1,4 @@
-import { ChainWalletBase, WalletListViewProps } from '@bongdungyeuem27-kit/core';
+import { ChainWalletBase, WalletListViewProps } from '@cosmos-kit/core';
 import { ConnectModalHead, ConnectModalWalletList } from '@interchain-ui/react';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 

@@ -1,2 +1,2 @@
-import { ManagerContext } from '@bongdungyeuem27-kit/core';
+import { ManagerContext } from '@cosmos-kit/core';
 export declare const useManager: () => ManagerContext;

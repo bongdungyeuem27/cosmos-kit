@@ -6,7 +6,7 @@ import {
   MainWalletBase,
   WalletClient,
   WalletName,
-} from '@bongdungyeuem27-kit/core';
+} from '@cosmos-kit/core';
 import {
   Cosmiframe,
   OverrideHandler,

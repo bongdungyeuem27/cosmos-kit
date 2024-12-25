@@ -1,4 +1,4 @@
-import { ExpiredError, RejectedError, State } from '@bongdungyeuem27-kit/core';
+import { ExpiredError, RejectedError, State } from '@cosmos-kit/core';
 import SignClient from '@cosmoskitconnect/packages/sign-client';
 import { CoreUtil } from './utils';
 const EXPLORER_API = 'https://explorer-api.walletconnect.com';

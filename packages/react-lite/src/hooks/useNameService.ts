@@ -4,7 +4,7 @@ import {
   NameService,
   NameServiceName,
   State,
-} from '@bongdungyeuem27-kit/core';
+} from '@cosmos-kit/core';
 import { useEffect, useMemo, useState } from 'react';
 
 import { useManager } from './useManager';

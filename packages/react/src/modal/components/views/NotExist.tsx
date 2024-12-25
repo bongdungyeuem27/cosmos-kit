@@ -1,4 +1,4 @@
-import { WalletViewProps } from '@bongdungyeuem27-kit/core';
+import { WalletViewProps } from '@cosmos-kit/core';
 import { ConnectModalHead, ConnectModalStatus } from '@interchain-ui/react';
 import { FaAndroid } from '@react-icons/all-files/fa/FaAndroid';
 import { GoDesktopDownload } from '@react-icons/all-files/go/GoDesktopDownload';

@@ -1,5 +1,5 @@
-import type { Mutable, Wallet, WalletConnectOptions } from '@bongdungyeuem27-kit/core';
-import { MainWalletBase, State } from '@bongdungyeuem27-kit/core';
+import type { Mutable, Wallet, WalletConnectOptions } from '@cosmos-kit/core';
+import { MainWalletBase, State } from '@cosmos-kit/core';
 
 import type { WCClient } from './client';
 import { IChainWC, IWCClient } from './types';

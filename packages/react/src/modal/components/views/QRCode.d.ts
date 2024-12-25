@@ -1,3 +1,7 @@
-import { WalletViewProps } from '@bongdungyeuem27-kit/core';
+import { WalletViewProps } from '@cosmos-kit/core';
 import { ModalViewImpl } from './config';
-export declare function QRCodeView({ onClose, onReturn, wallet, }: WalletViewProps): ModalViewImpl;
+export declare function QRCodeView({
+  onClose,
+  onReturn,
+  wallet,
+}: WalletViewProps): ModalViewImpl;

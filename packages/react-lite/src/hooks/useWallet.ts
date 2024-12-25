@@ -3,7 +3,7 @@ import {
   WalletContext,
   WalletName,
   WalletStatus,
-} from '@bongdungyeuem27-kit/core';
+} from '@cosmos-kit/core';
 import { useContext } from 'react';
 
 import { walletContext } from '../provider';

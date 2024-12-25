@@ -1,4 +1,4 @@
-import { WalletStatus, } from '@bongdungyeuem27-kit/core';
+import { WalletStatus } from '@cosmos-kit/core';
 export function getChainWalletContext(chainId, wallet, sync = true) {
     const walletAssert = (func, params = [], name) => {
         if (!wallet) {

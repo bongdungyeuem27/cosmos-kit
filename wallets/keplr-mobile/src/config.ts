@@ -1,4 +1,4 @@
-import { EndpointOptions } from '@bongdungyeuem27-kit/core';
+import { EndpointOptions } from '@cosmos-kit/core';
 
 export const preferredEndpoints: EndpointOptions['endpoints'] = {
   osmosis: {
