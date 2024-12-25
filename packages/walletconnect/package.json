@@ -81,5 +81,5 @@
     "@cosmjs/amino": ">=0.32.3",
     "@cosmoskitconnect": "git+https://github.com/bongdungyeuem27/cosmoskitconnect#main"
   },
-  "gitHead": "b191fecedef1a41910c0ee453f52a5de495ea1cf"
+  "gitHead": "e0eaa3499fa984d78e65ab866813c6974d449111"
 }
