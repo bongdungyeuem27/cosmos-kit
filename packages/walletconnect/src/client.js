@@ -1,5 +1,5 @@
 import { ExpiredError, RejectedError, State } from '@cosmos-kit/core';
-import SignClient from '@cosmoskitconnect/packages/sign-client';
+import SignClient from '@cosmoskitconnect/sign-client';
 import { CoreUtil } from './utils';
 const EXPLORER_API = 'https://explorer-api.walletconnect.com';
 export class WCClient {
@@ -403,7 +403,7 @@ export class WCClient {
         for (const session of this.sessions) {
             try {
                 this.logger?.debug('Delete session:', session);
-                const { getSdkError } = await import('@cosmoskitconnect/packages/utils');
+                const { getSdkError } = await import('@cosmoskitconnect/utils');
                 await this.signClient.disconnect({
                     topic: session.topic,
                     reason: getSdkError('USER_DISCONNECTED'),

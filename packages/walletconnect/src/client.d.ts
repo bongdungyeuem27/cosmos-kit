@@ -26,12 +26,12 @@ import type {
   WalletConnectOptions,
 } from '@cosmos-kit/core';
 import { State } from '@cosmos-kit/core';
-import SignClient from '@cosmoskitconnect/packages/sign-client';
+import SignClient from '@cosmoskitconnect/sign-client';
 import {
   EngineTypes,
   PairingTypes,
   SessionTypes,
-} from '@cosmoskitconnect/packages/types';
+} from '@cosmoskitconnect/types';
 import type EventEmitter from 'events';
 export declare class WCClient implements WalletClient {
   readonly walletInfo: Wallet;

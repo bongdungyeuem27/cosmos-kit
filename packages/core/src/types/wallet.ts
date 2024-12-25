@@ -10,7 +10,7 @@ import {
   OfflineDirectSigner,
   OfflineSigner,
 } from '@cosmjs/proto-signing';
-import { SignClientTypes } from '@cosmoskitconnect/packages/types';
+import { SignClientTypes } from '@cosmoskitconnect/types';
 
 import { ChainWalletBase, MainWalletBase } from '../bases';
 import { ChainName, ChainRecord } from './chain';
