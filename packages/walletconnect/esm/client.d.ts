@@ -33,7 +33,7 @@ export declare class WCClient implements WalletClient {
     get wcName(): string;
     get wcEncoding(): BufferEncoding;
     get wcProjectId(): string;
-    get wcMobile(): any;
+    get wcMobile(): AppUrl;
     get accounts(): SimpleAccount[];
     deleteSession(topic: string): void;
     subscribeToEvents(): void;
@@ -43,8 +43,8 @@ export declare class WCClient implements WalletClient {
     get pairing(): PairingTypes.Struct | undefined;
     restoreSessions(): void;
     getSession(namespace: string, chainId: string): Promise<SessionTypes.Struct>;
-    get walletName(): any;
-    get dappProjectId(): any;
+    get walletName(): string;
+    get dappProjectId(): string;
     setActions(actions: WalletClientActions): void;
     setQRState(state: State): void;
     setQRError(e?: Error | string): void;
@@ -52,8 +52,8 @@ export declare class WCClient implements WalletClient {
     initSignClient(): Promise<void>;
     initWCCloudInfo(): Promise<void>;
     initAppUrl(): Promise<void>;
-    get nativeUrl(): any;
-    get universalUrl(): any;
+    get nativeUrl(): string;
+    get universalUrl(): string;
     get redirectHref(): string | undefined;
     get redirectHrefWithWCUri(): string | undefined;
     get displayQRCode(): boolean;

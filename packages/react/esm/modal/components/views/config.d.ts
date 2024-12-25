@@ -8,9 +8,9 @@ export declare type WalletViewImplGetter = (props: WalletViewProps) => ModalView
 export declare type WalletListImplGetter = (props: WalletListViewProps) => ModalViewImpl;
 export declare const defaultModalViews: Record<keyof ModalViews, WalletViewImplGetter | WalletListImplGetter>;
 export declare function getWalletProp(wallet: Wallet): {
-    name: Wallet;
-    prettyName: Wallet;
-    logo: any;
-    mobileDisabled: any;
+    name: string;
+    prettyName: string;
+    logo: string;
+    mobileDisabled: boolean;
     isMobile: boolean;
 };

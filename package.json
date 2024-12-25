@@ -40,6 +40,44 @@
     "ts-jest": "29.0.1",
     "typescript": "4.8.3"
   },
+  "exports": {
+    "core": {
+      "import": "./packages/core/cjs/index.js",
+      "require": "./packages/core/esm/index.js"
+    },
+    "cosmos-kit": {
+      "import": "./packages/cosmos-kit/cjs/index.js",
+      "require": "./packages/cosmos-kit/esm/index.js"
+    },
+    "ins": {
+      "import": "./packages/ins/cjs/index.js",
+      "require": "./packages/ins/esm/index.js"
+    },
+    "react": {
+      "import": "./packages/react/cjs/index.js",
+      "require": "./packages/react/esm/index.js"
+    },
+    "react-lite": {
+      "import": "./packages/react-lite/cjs/index.js",
+      "require": "./packages/react-lite/esm/index.js"
+    },
+    "walletconnect": {
+      "import": "./packages/walletconnect/cjs/index.js",
+      "require": "./packages/walletconnect/esm/index.js"
+    },
+    "keplr": {
+      "import": "./wallets/keplr/cjs/index.js",
+      "require": "./wallets/keplr/esm/index.js"
+    },
+    "keplr-extension": {
+      "import": "./wallets/keplr-extension/cjs/index.js",
+      "require": "./wallets/keplr-extension/esm/index.js"
+    },
+    "keplr-mobile": {
+      "import": "./wallets/keplr-mobile/cjs/index.js",
+      "require": "./wallets/keplr-mobile/esm/index.js"
+    }
+  },
   "workspaces": [
     "packages/core",
     "packages/cosmos-kit",

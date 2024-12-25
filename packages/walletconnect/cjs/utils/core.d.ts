@@ -1,3 +1,4 @@
+import { OS } from '@cosmos-kit/core';
 export declare const CoreUtil: {
     isHttpUrl(url: string): boolean;
     formatNativeUrl(appUrl: string, wcUri: string, os: OS, name: string): string;
