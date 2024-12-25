@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useIframe = void 0;
-const core_1 = require("@bongdungyeuem27-kit/core");
+const core_1 = require("@cosmos-kit/core");
 const cosmiframe_1 = require("@dao-dao/cosmiframe");
 const react_1 = require("react");
 const useWallet_1 = require("./useWallet");

@@ -1,7 +1,7 @@
-import { DirectSignDoc, SignOptions, SignType, SimpleAccount, Wallet, WalletAccount } from '@bongdungyeuem27-kit/core';
-import { WCClient } from '@bongdungyeuem27-kit/walletconnect';
 import { StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { OfflineDirectSigner } from '@cosmjs/proto-signing';
+import { DirectSignDoc, SignOptions, SignType, SimpleAccount, Wallet, WalletAccount } from '@cosmos-kit/core';
+import { WCClient } from '@cosmos-kit/walletconnect';
 import SignClient from '@cosmoskitconnect/packages/sign-client';
 import type { EngineTypes } from '@cosmoskitconnect/packages/types';
 import { ProposalTypes } from '@cosmoskitconnect/packages/types';

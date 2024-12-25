@@ -1,5 +1,5 @@
-import { wallets as keplrExtension } from '@bongdungyeuem27-kit/keplr-extension';
-import { wallets as keplrMobile } from '@bongdungyeuem27-kit/keplr-mobile';
+import { wallets as keplrExtension } from '@cosmos-kit/keplr-extension';
+import { wallets as keplrMobile } from '@cosmos-kit/keplr-mobile';
 export function createWalletList(extension, mobile, snap) {
     const list = [extension, mobile, snap].filter((wallet) => Boolean(wallet));
     list.mobile = mobile;

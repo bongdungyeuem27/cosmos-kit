@@ -1,9 +1,9 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-import { ModalView, State, WalletStatus, } from '@bongdungyeuem27-kit/core';
+import { ModalView, State, WalletStatus, } from '@cosmos-kit/core';
 import { ConnectModal, ThemeProvider, } from '@interchain-ui/react';
 import { useCallback, useEffect, useMemo, useRef, useState, } from 'react';
-import { defaultModalViews, } from './components/views';
 import { useSelectedWalletRepoContext } from '../context';
+import { defaultModalViews, } from './components/views';
 export function WalletModal({ isOpen, setOpen, walletRepo, modalViews, modalOptions, includeAllWalletsOnMobile, overrides, themeDefs, customTheme, defaultTheme, 
 // ==== Custom modal styles
 modalContainerClassName, modalContentClassName, modalChildrenClassName, modalContentStyles, }) {
@@ -20,7 +20,7 @@ modalContainerClassName, modalContentClassName, modalChildrenClassName, modalCon
         beforeConnect: { disconnect: disconnectOptions },
     });
     const { selectedWalletRepoName } = useSelectedWalletRepoContext();
-    const current = walletRepo?.wallets.find(w => w.walletName === selectedWalletRepoName);
+    const current = walletRepo?.wallets.find((w) => w.walletName === selectedWalletRepoName);
     current?.client?.setActions?.({
         qrUrl: {
             state: setQRState,

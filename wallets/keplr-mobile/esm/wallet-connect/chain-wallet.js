@@ -1,4 +1,4 @@
-import { ChainWC } from '@bongdungyeuem27-kit/walletconnect';
+import { ChainWC } from '@cosmos-kit/walletconnect';
 import { KeplrClient } from './client';
 export class ChainKeplrMobile extends ChainWC {
     constructor(walletInfo, chainInfo) {

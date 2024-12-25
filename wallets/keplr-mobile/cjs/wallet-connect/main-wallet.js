@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.KeplrMobileWallet = void 0;
-const keplr_extension_1 = require("@bongdungyeuem27-kit/keplr-extension");
-const walletconnect_1 = require("@bongdungyeuem27-kit/walletconnect");
+const keplr_extension_1 = require("@cosmos-kit/keplr-extension");
+const walletconnect_1 = require("@cosmos-kit/walletconnect");
 const provider_extension_1 = require("@keplr-wallet/provider-extension");
 const chain_wallet_1 = require("./chain-wallet");
 const client_1 = require("./client");

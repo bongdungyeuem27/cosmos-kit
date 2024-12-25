@@ -1,10 +1,10 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-import { Logger, } from '@bongdungyeuem27-kit/core';
-import { ChainProvider as ChainProviderLite } from '@bongdungyeuem27-kit/react-lite';
+import { Logger, } from '@cosmos-kit/core';
+import { ChainProvider as ChainProviderLite } from '@cosmos-kit/react-lite';
 import { useCallback, useMemo } from 'react';
+import { SelectedWalletRepoProvider } from './context';
 import { WalletModal } from './modal';
 import { defaultModalViews } from './modal/components/views';
-import { SelectedWalletRepoProvider } from './context';
 export const ChainProvider = ({ chains, assetLists, wallets, walletModal, modalViews, throwErrors = false, subscribeConnectEvents = true, defaultNameService = 'icns', walletConnectOptions, signerOptions, endpointOptions, sessionOptions, logLevel = 'WARN', allowedIframeParentOrigins = [
     'http://localhost:*',
     'https://localhost:*',
@@ -13,7 +13,7 @@ export const ChainProvider = ({ chains, assetLists, wallets, walletModal, modalV
     'https://dao.daodao.zone',
     'https://my.abstract.money',
     'https://apps.abstract.money',
-    'https://console.abstract.money'
+    'https://console.abstract.money',
 ], children, modalTheme = {}, modalOptions, }) => {
     const logger = useMemo(() => new Logger(logLevel), []);
     const withChainProvider = (modal) => (_jsx(SelectedWalletRepoProvider, { children: _jsx(ChainProviderLite, { chains: chains, assetLists: assetLists, wallets: wallets, walletModal: modal, throwErrors: throwErrors, subscribeConnectEvents: subscribeConnectEvents, defaultNameService: defaultNameService, walletConnectOptions: walletConnectOptions, signerOptions: signerOptions, endpointOptions: endpointOptions, sessionOptions: sessionOptions, logLevel: logLevel, allowedIframeParentOrigins: allowedIframeParentOrigins, children: children }) }));

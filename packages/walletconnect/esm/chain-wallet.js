@@ -1,4 +1,4 @@
-import { ChainWalletBase, State, } from '@bongdungyeuem27-kit/core';
+import { ChainWalletBase, State, } from '@cosmos-kit/core';
 export class ChainWC extends ChainWalletBase {
     WCClient;
     clientMutable = { state: State.Init };

@@ -1,6 +1,6 @@
 import { OfflineAminoSigner } from '@cosmjs/amino';
 import { OfflineDirectSigner } from '@cosmjs/proto-signing';
-import { MainWalletBase, WalletClient, WalletName } from '@bongdungyeuem27-kit/core';
+import { MainWalletBase, WalletClient, WalletName } from '@cosmos-kit/core';
 import { OverrideHandler, ParentMetadata } from '@dao-dao/cosmiframe';
 import { RefCallback } from 'react';
 export declare type FunctionKeys<T> = {

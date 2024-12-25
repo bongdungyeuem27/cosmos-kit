@@ -1,5 +1,5 @@
-import { KeplrClient as ExtensionKeplrClient } from '@bongdungyeuem27-kit/keplr-extension';
-import { WCWallet } from '@bongdungyeuem27-kit/walletconnect';
+import { KeplrClient as ExtensionKeplrClient } from '@cosmos-kit/keplr-extension';
+import { WCWallet } from '@cosmos-kit/walletconnect';
 import { Keplr } from '@keplr-wallet/provider-extension';
 import { ChainKeplrMobile } from './chain-wallet';
 import { KeplrClient } from './client';

@@ -2,8 +2,8 @@
 /// <reference types="node" />
 import type { AminoSignResponse, OfflineAminoSigner, StdSignDoc } from '@cosmjs/amino';
 import type { DirectSignResponse, OfflineDirectSigner } from '@cosmjs/proto-signing';
-import type { AppUrl, DappEnv, DirectSignDoc, DisconnectOptions, Logger, Mutable, SignOptions, SignType, SimpleAccount, Wallet, WalletAccount, WalletClient, WalletClientActions, WalletConnectOptions } from '@bongdungyeuem27-kit/core';
-import { State } from '@bongdungyeuem27-kit/core';
+import type { AppUrl, DappEnv, DirectSignDoc, DisconnectOptions, Logger, Mutable, SignOptions, SignType, SimpleAccount, Wallet, WalletAccount, WalletClient, WalletClientActions, WalletConnectOptions } from '@cosmos-kit/core';
+import { State } from '@cosmos-kit/core';
 import SignClient from '@cosmoskitconnect/packages/sign-client';
 import { EngineTypes, PairingTypes, SessionTypes } from '@cosmoskitconnect/packages/types';
 import type EventEmitter from 'events';
@@ -33,7 +33,7 @@ export declare class WCClient implements WalletClient {
     get wcName(): string;
     get wcEncoding(): BufferEncoding;
     get wcProjectId(): string;
-    get wcMobile(): AppUrl;
+    get wcMobile(): any;
     get accounts(): SimpleAccount[];
     deleteSession(topic: string): void;
     subscribeToEvents(): void;
@@ -43,8 +43,8 @@ export declare class WCClient implements WalletClient {
     get pairing(): PairingTypes.Struct | undefined;
     restoreSessions(): void;
     getSession(namespace: string, chainId: string): Promise<SessionTypes.Struct>;
-    get walletName(): string;
-    get dappProjectId(): string;
+    get walletName(): any;
+    get dappProjectId(): any;
     setActions(actions: WalletClientActions): void;
     setQRState(state: State): void;
     setQRError(e?: Error | string): void;
@@ -52,8 +52,8 @@ export declare class WCClient implements WalletClient {
     initSignClient(): Promise<void>;
     initWCCloudInfo(): Promise<void>;
     initAppUrl(): Promise<void>;
-    get nativeUrl(): string;
-    get universalUrl(): string;
+    get nativeUrl(): any;
+    get universalUrl(): any;
     get redirectHref(): string | undefined;
     get redirectHrefWithWCUri(): string | undefined;
     get displayQRCode(): boolean;

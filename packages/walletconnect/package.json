@@ -73,7 +73,7 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/core": "^0.1.1-beta.7",
+    "@cosmos-kit/core": "workspace:*",
     "@cosmjs/proto-signing": "^0.32.3",
     "events": "3.3.0"
   },

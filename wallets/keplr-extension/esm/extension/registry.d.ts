@@ -1,2 +1,2 @@
-import { Wallet } from '@bongdungyeuem27-kit/core';
+import { Wallet } from '@cosmos-kit/core';
 export declare const keplrExtensionInfo: Wallet;

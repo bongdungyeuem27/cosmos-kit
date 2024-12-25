@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useWallet = void 0;
-const core_1 = require("@bongdungyeuem27-kit/core");
+const core_1 = require("@cosmos-kit/core");
 const react_1 = require("react");
 const provider_1 = require("../provider");
 const useWallet = (walletName, activeOnly = true) => {

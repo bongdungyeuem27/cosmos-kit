@@ -1,5 +1,5 @@
 import { AssetList, Chain } from '@chain-registry/types';
-import { ChainName, EndpointOptions, LogLevel, MainWalletBase, ModalOptions, NameServiceName, SessionOptions, SignerOptions, WalletConnectOptions, WalletModalProps } from '@bongdungyeuem27-kit/core';
+import { ChainName, EndpointOptions, LogLevel, MainWalletBase, ModalOptions, NameServiceName, SessionOptions, SignerOptions, WalletConnectOptions, WalletModalProps } from '@cosmos-kit/core';
 import { ReactNode } from 'react';
 import { ThemeCustomizationProps } from './modal';
 import { defaultModalViews } from './modal/components/views';

@@ -4,8 +4,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.KeplrClient = void 0;
-const core_1 = require("@bongdungyeuem27-kit/core");
-const walletconnect_1 = require("@bongdungyeuem27-kit/walletconnect");
+const core_1 = require("@cosmos-kit/core");
+const walletconnect_1 = require("@cosmos-kit/walletconnect");
 const wc_client_1 = require("@keplr-wallet/wc-client");
 const long_1 = __importDefault(require("long"));
 class KeplrClient extends walletconnect_1.WCClient {

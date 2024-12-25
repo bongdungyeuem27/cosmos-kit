@@ -1,6 +1,6 @@
 import { OfflineAminoSigner, StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { OfflineDirectSigner } from '@cosmjs/proto-signing';
-import { ChainRecord, DirectSignDoc, SignOptions, SignType, SuggestToken, WalletAccount, WalletClient } from '@bongdungyeuem27-kit/core';
+import { ChainRecord, DirectSignDoc, SignOptions, SignType, SuggestToken, WalletAccount, WalletClient } from '@cosmos-kit/core';
 import { BroadcastMode, Keplr } from '@keplr-wallet/types';
 export declare class KeplrClient implements WalletClient {
     readonly client: Keplr;
@@ -13,8 +13,8 @@ export declare class KeplrClient implements WalletClient {
     getSimpleAccount(chainId: string): Promise<{
         namespace: string;
         chainId: string;
-        address: string;
-        username: string;
+        address: WalletAccount;
+        username: WalletAccount;
     }>;
     getAccount(chainId: string): Promise<WalletAccount>;
     getOfflineSigner(chainId: string, preferredSignType?: SignType): OfflineAminoSigner | OfflineDirectSigner;

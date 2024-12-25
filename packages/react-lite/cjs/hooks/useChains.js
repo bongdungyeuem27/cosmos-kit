@@ -14,8 +14,8 @@ function useChains(chainNames, sync = true) {
     if (!modalProvided) {
         throw new Error('You have to provide `walletModal` to use `useChains`, or use `useChainWallet` instead.');
     }
-    const repos = names.map(name => walletManager.getWalletRepo(name));
-    const ids = repos.map(repo => repo.chainRecord.chain.chain_id);
+    const repos = names.map((name) => walletManager.getWalletRepo(name));
+    const ids = repos.map((repo) => repo.chainRecord.chain.chain_id);
     return names.reduce((result, chainName, index) => {
         const walletRepo = repos[index];
         walletRepo.activate();

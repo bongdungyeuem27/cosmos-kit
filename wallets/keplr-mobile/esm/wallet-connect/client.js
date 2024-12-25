@@ -1,5 +1,5 @@
-import { ExpiredError, RejectedError, State, } from '@bongdungyeuem27-kit/core';
-import { WCClient } from '@bongdungyeuem27-kit/walletconnect';
+import { ExpiredError, RejectedError, State, } from '@cosmos-kit/core';
+import { WCClient } from '@cosmos-kit/walletconnect';
 import { KeplrWalletConnectV2 } from '@keplr-wallet/wc-client';
 import Long from 'long';
 export class KeplrClient extends WCClient {
