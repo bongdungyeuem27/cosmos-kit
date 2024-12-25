@@ -5,7 +5,7 @@ export declare type WalletList<E extends MainWalletBase | null, M extends MainWa
     extension: E | null;
 };
 export declare function createWalletList<ExtensionWallet extends MainWalletBase | null, MobileWallet extends MainWalletBase | null, MetaMaskSnap extends MainWalletBase | null>(extension: ExtensionWallet | null, mobile: MobileWallet | null, snap?: MetaMaskSnap): WalletList<ExtensionWallet, MobileWallet>;
-export declare const keplr: WalletList<any, any>;
+export declare const keplr: WalletList<import("@cosmos-kit/keplr-extension").KeplrExtensionWallet, import("@cosmos-kit/keplr-mobile").KeplrMobileWallet>;
 export declare type SubWalletList = MainWalletBase[] & {
     get mobile(): MainWalletBase[];
     get extension(): MainWalletBase[];
