@@ -2,7 +2,7 @@
 /// <reference types="node" />
 import { AccountData, AminoSignResponse, OfflineAminoSigner, StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { DirectSignResponse, OfflineDirectSigner, OfflineSigner } from '@cosmjs/proto-signing';
-import { SignClientTypes } from '@cosmoskitconnect/packages/types';
+import { SignClientTypes } from '@cosmoskitconnect/types';
 import { ChainWalletBase, MainWalletBase } from '../bases';
 import { ChainName, ChainRecord } from './chain';
 import { DappEnv, Mutable, OS, SignType } from './common';

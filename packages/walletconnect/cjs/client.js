@@ -28,7 +28,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.WCClient = void 0;
 const core_1 = require("@cosmos-kit/core");
-const sign_client_1 = __importDefault(require("@cosmoskitconnect/packages/sign-client"));
+const sign_client_1 = __importDefault(require("@cosmoskitconnect/sign-client"));
 const utils_1 = require("./utils");
 const EXPLORER_API = 'https://explorer-api.walletconnect.com';
 class WCClient {
@@ -432,7 +432,7 @@ class WCClient {
         for (const session of this.sessions) {
             try {
                 this.logger?.debug('Delete session:', session);
-                const { getSdkError } = await Promise.resolve().then(() => __importStar(require('@cosmoskitconnect/packages/utils')));
+                const { getSdkError } = await Promise.resolve().then(() => __importStar(require('@cosmoskitconnect/utils')));
                 await this.signClient.disconnect({
                     topic: session.topic,
                     reason: getSdkError('USER_DISCONNECTED'),

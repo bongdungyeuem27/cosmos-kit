@@ -4,8 +4,8 @@ import type { AminoSignResponse, OfflineAminoSigner, StdSignDoc } from '@cosmjs/
 import type { DirectSignResponse, OfflineDirectSigner } from '@cosmjs/proto-signing';
 import type { AppUrl, DappEnv, DirectSignDoc, DisconnectOptions, Logger, Mutable, SignOptions, SignType, SimpleAccount, Wallet, WalletAccount, WalletClient, WalletClientActions, WalletConnectOptions } from '@cosmos-kit/core';
 import { State } from '@cosmos-kit/core';
-import SignClient from '@cosmoskitconnect/packages/sign-client';
-import { EngineTypes, PairingTypes, SessionTypes } from '@cosmoskitconnect/packages/types';
+import SignClient from '@cosmoskitconnect/sign-client';
+import { EngineTypes, PairingTypes, SessionTypes } from '@cosmoskitconnect/types';
 import type EventEmitter from 'events';
 export declare class WCClient implements WalletClient {
     readonly walletInfo: Wallet;
@@ -44,7 +44,7 @@ export declare class WCClient implements WalletClient {
     restoreSessions(): void;
     getSession(namespace: string, chainId: string): Promise<SessionTypes.Struct>;
     get walletName(): string;
-    get dappProjectId(): any;
+    get dappProjectId(): string;
     setActions(actions: WalletClientActions): void;
     setQRState(state: State): void;
     setQRError(e?: Error | string): void;
@@ -65,10 +65,10 @@ export declare class WCClient implements WalletClient {
     getOfflineSignerAmino(chainId: string): OfflineAminoSigner;
     getOfflineSignerDirect(chainId: string): OfflineDirectSigner;
     getOfflineSigner(chainId: string, preferredSignType?: SignType): Promise<OfflineAminoSigner | OfflineDirectSigner>;
-    protected _getAccount(chainId: string): Promise<any>;
+    protected _getAccount(chainId: string): Promise<unknown>;
     getAccount(chainId: string): Promise<WalletAccount>;
-    protected _signAmino(chainId: string, signer: string, signDoc: StdSignDoc, signOptions?: SignOptions): Promise<any>;
+    protected _signAmino(chainId: string, signer: string, signDoc: StdSignDoc, signOptions?: SignOptions): Promise<unknown>;
     signAmino(chainId: string, signer: string, signDoc: StdSignDoc, signOptions?: SignOptions): Promise<AminoSignResponse>;
-    protected _signDirect(chainId: string, signer: string, signDoc: DirectSignDoc, signOptions?: SignOptions): Promise<any>;
+    protected _signDirect(chainId: string, signer: string, signDoc: DirectSignDoc, signOptions?: SignOptions): Promise<unknown>;
     signDirect(chainId: string, signer: string, signDoc: DirectSignDoc, signOptions?: SignOptions): Promise<DirectSignResponse>;
 }

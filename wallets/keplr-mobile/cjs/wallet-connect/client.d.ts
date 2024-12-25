@@ -2,9 +2,9 @@ import { StdSignature, StdSignDoc } from '@cosmjs/amino';
 import { OfflineDirectSigner } from '@cosmjs/proto-signing';
 import { DirectSignDoc, SignOptions, SignType, SimpleAccount, Wallet, WalletAccount } from '@cosmos-kit/core';
 import { WCClient } from '@cosmos-kit/walletconnect';
-import SignClient from '@cosmoskitconnect/packages/sign-client';
-import type { EngineTypes } from '@cosmoskitconnect/packages/types';
-import { ProposalTypes } from '@cosmoskitconnect/packages/types';
+import SignClient from '@cosmoskitconnect/sign-client';
+import type { EngineTypes } from '@cosmoskitconnect/types';
+import { ProposalTypes } from '@cosmoskitconnect/types';
 import { Keplr } from '@keplr-wallet/types';
 export declare class KeplrClient extends WCClient {
     keplr: Keplr | undefined;
@@ -16,7 +16,7 @@ export declare class KeplrClient extends WCClient {
     enable(chainIds: string | string[]): Promise<void>;
     getSimpleAccount(chainId: string): Promise<SimpleAccount>;
     getAccount(chainId: string): Promise<WalletAccount>;
-    getOfflineSigner(chainId: string, preferredSignType?: SignType): Promise<OfflineDirectSigner | import("@keplr-wallet/types").OfflineAminoSigner>;
+    getOfflineSigner(chainId: string, preferredSignType?: SignType): Promise<import("@keplr-wallet/types").OfflineAminoSigner | OfflineDirectSigner>;
     getOfflineSignerAmino(chainId: string): import("@keplr-wallet/types").OfflineAminoSigner;
     getOfflineSignerDirect(chainId: string): OfflineDirectSigner;
     signAmino(chainId: string, signer: string, signDoc: StdSignDoc, signOptions?: SignOptions): Promise<import("@keplr-wallet/types").AminoSignResponse>;
