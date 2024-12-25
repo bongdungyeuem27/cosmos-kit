@@ -44,7 +44,7 @@ export declare class WCClient implements WalletClient {
     restoreSessions(): void;
     getSession(namespace: string, chainId: string): Promise<SessionTypes.Struct>;
     get walletName(): string;
-    get dappProjectId(): string;
+    get dappProjectId(): any;
     setActions(actions: WalletClientActions): void;
     setQRState(state: State): void;
     setQRError(e?: Error | string): void;

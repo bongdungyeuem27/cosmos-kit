@@ -87,7 +87,7 @@
     "uuid": "^9.0.1"
   },
   "peerDependencies": {
-    "@cosmoskitconnect": "git+https://github.com/bongdungyeuem27/cosmoskitconnect#main"
+    "@cosmoskitconnect": "git+https://github.com/bongdungyeuem27/cosmoskitconnect#v1.3.0"
   },
   "gitHead": "f00213f0734b21958f1a126ada6987d5ea37a9d2"
 }

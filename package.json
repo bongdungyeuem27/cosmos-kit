@@ -80,15 +80,13 @@
   },
   "workspaces": [
     "packages/core",
-    "packages/cosmos-kit",
     "packages/ins",
     "packages/react",
     "packages/react-lite",
     "packages/walletconnect",
     "wallets/keplr",
     "wallets/keplr-extension",
-    "wallets/keplr-mobile",
-    "wallets/*"
+    "wallets/keplr-mobile"
   ],
   "repository": {
     "type": "git",
