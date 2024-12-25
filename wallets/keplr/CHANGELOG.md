@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1-beta.9](https://github.com/cosmology-tech/cosmos-kit/compare/@cosmos-kit/keplr@0.1.1-beta.8...@cosmos-kit/keplr@0.1.1-beta.9) (2024-12-25)
+
+### Bug Fixes
+
+- absolute path ([db63608](https://github.com/cosmology-tech/cosmos-kit/commit/db636086c7ac1b7a623e81e5634ae991b521f761))
+- beta8 release ([ca8eba9](https://github.com/cosmology-tech/cosmos-kit/commit/ca8eba92b66914b06151d62720df783fc02fb88a))
+
 ## [0.1.1-beta.8](https://github.com/cosmology-tech/cosmos-kit/compare/@cosmos-kit/keplr@0.1.1-beta.2...@cosmos-kit/keplr@0.1.1-beta.8) (2024-12-25)
 
 ### Bug Fixes
