@@ -68,5 +68,5 @@
     "@cosmos-kit/keplr-extension": "git+https://github.com/bongdungyeuem27/cosmos-kit#@cosmos-kit/keplr-extension@0.1.1-beta.9",
     "@cosmos-kit/keplr-mobile": "git+https://github.com/bongdungyeuem27/cosmos-kit#@cosmos-kit/keplr-mobile@0.1.1-beta.9"
   },
-  "gitHead": "deae66203d83a6e1d8b40c1d5f5644fb644b0b1c"
+  "gitHead": "6a35ed258a6eb13da273b83a9fe2611108fa7547"
 }
