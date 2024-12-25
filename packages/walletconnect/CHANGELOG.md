@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1-beta.10](https://github.com/cosmology-tech/cosmos-kit/compare/@cosmos-kit/walletconnect@0.1.1-beta.9...@cosmos-kit/walletconnect@0.1.1-beta.10) (2024-12-25)
+
+### Bug Fixes
+
+- 0.1.10 ([2b5852a](https://github.com/cosmology-tech/cosmos-kit/commit/2b5852a337a6cc287a3d2ee68d3049bea6857fa9))
+
 ## [0.1.1-beta.9](https://github.com/cosmology-tech/cosmos-kit/compare/@cosmos-kit/walletconnect@0.1.1-beta.8...@cosmos-kit/walletconnect@0.1.1-beta.9) (2024-12-25)
 
 ### Bug Fixes
